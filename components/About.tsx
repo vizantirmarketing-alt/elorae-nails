@@ -12,20 +12,20 @@ export default function About() {
 
         {/* Content */}
         <div className="text-center md:text-left">
-          <p className="section-label">Hey, I&apos;m James</p>
+          <p className="section-label">About</p>
           <h2 className="font-serif text-3xl sm:text-4xl lg:text-5xl font-light leading-tight mb-8">
-            Nails are my <em className="italic text-rose">craft</em>, not just my job
+            Three decades of craft. A team that stays.
           </h2>
           <p className="text-charcoal text-lg mb-5">
-            I&apos;ve been doing nails for almost 30 years — what started as a way to help out at my family&apos;s salon became a lifelong passion. Now I get to do it every day in my own private studio.
+            I&apos;ve been doing nails for almost 30 years. The people who work alongside me have been here a long time — because this isn&apos;t a job to us.
           </p>
           <p className="text-warm-gray mb-5">
-            My space is just me — no rush, no noise, no chaos. Just good music, good conversation (or peaceful quiet if you prefer), and my full attention on creating something beautiful for you.
+            We don&apos;t rush. We don&apos;t overbook. Every appointment gets our full attention.
           </p>
           <p className="text-warm-gray mb-8">
-            Whether you want clean and classic or full-on nail art, I&apos;m here to make it happen. After three decades, I still genuinely love what I do, and I think that shows in the work.
+            Whether you want clean and classic or something more creative, we&apos;re here to make it happen.
           </p>
-          <p className="font-serif italic text-3xl text-rose">— James</p>
+          <p className="font-serif italic text-3xl text-rose">— James & Team</p>
         </div>
       </div>
     </section>
