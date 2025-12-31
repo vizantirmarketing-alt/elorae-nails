@@ -14,13 +14,13 @@ export default function About() {
         <div className="text-center md:text-left">
           <p className="section-label">About</p>
           <h2 className="font-serif text-3xl sm:text-4xl lg:text-5xl font-light leading-tight mb-8">
-            Three decades of craft. A team that stays.
+            Nails are our craft, not just our job
           </h2>
           <p className="text-charcoal text-lg mb-5">
-            I&apos;ve been doing nails for almost 30 years. The people who work alongside me have been here a long time — because this isn&apos;t a job to us.
+            I&apos;ve been doing nails for almost 30 years. The team here has been with me a long time — no revolving door, just people who genuinely care about the work.
           </p>
           <p className="text-warm-gray mb-5">
-            We don&apos;t rush. We don&apos;t overbook. Every appointment gets our full attention.
+            No rush. No chaos. Just real attention to detail and a space where you can actually relax.
           </p>
           <p className="text-warm-gray mb-8">
             Whether you want clean and classic or something more creative, we&apos;re here to make it happen.

@@ -47,7 +47,7 @@ export default function Navbar() {
         }`}
       >
         {/* Logo */}
-        <a href="#" className="font-serif text-2xl font-light tracking-[0.15em] text-charcoal">
+        <a href="/" className="font-serif text-2xl font-light tracking-[0.15em] text-charcoal">
           ELORAE
         </a>
 
@@ -98,7 +98,7 @@ export default function Navbar() {
         <div className="h-full flex flex-col items-center justify-center">
           {/* Logo in menu */}
           <a
-            href="#"
+            href="/"
             onClick={handleLinkClick}
             className="font-serif text-xl tracking-[0.2em] text-rose mb-16"
           >

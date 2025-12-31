@@ -4,9 +4,12 @@ export default function Footer() {
   return (
     <footer className="bg-charcoal py-8 px-8 lg:px-16 border-t border-white/5">
       <div className="max-w-4xl mx-auto flex flex-col md:flex-row justify-between items-center gap-6">
-        <div className="font-serif text-lg text-cream tracking-wide">
+        <Link
+          href="/"
+          className="font-serif text-lg text-cream tracking-wide no-underline hover:text-rose transition-colors duration-300"
+        >
           ELORAE NAILS
-        </div>
+        </Link>
 
         <div className="flex gap-8">
           <Link
