@@ -57,3 +57,43 @@ body {
 .placeholder-img-6 { background: linear-gradient(135deg, #C4A87C 0%, #B89B94 100%); }
 .placeholder-img-7 { background: linear-gradient(135deg, #D4C4BC 0%, #E8DCD5 100%); }
 .placeholder-img-8 { background: linear-gradient(135deg, #B89B94 0%, #C9B8B1 100%); }
+
+/* Blog article content styling */
+.prose h2 {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.75rem;
+  font-weight: 300;
+  color: #2C2826;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.prose h3 {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.5rem;
+  font-weight: 300;
+  color: #2C2826;
+  margin-top: 1.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.prose p {
+  margin-bottom: 1.25rem;
+  line-height: 1.75;
+}
+
+.prose ul,
+.prose ol {
+  margin-bottom: 1.25rem;
+  padding-left: 1.5rem;
+}
+
+.prose li {
+  margin-bottom: 0.5rem;
+  line-height: 1.75;
+}
+
+.prose strong {
+  font-weight: 500;
+  color: #2C2826;
+}

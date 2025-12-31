@@ -114,7 +114,7 @@ export default function Services() {
             {services.manicures.map((service, index) => (
               <div
                 key={index}
-                className="grid grid-cols-1 sm:grid-cols-[1fr_auto] gap-2 sm:gap-8 py-6 border-b border-blush items-center transition-all duration-300 hover:pl-4 hover:bg-gradient-to-r hover:from-blush/30 hover:to-transparent"
+                className="grid grid-cols-1 sm:grid-cols-[1fr_auto] gap-2 sm:gap-8 py-6 border-b border-blush items-center transition-all duration-300 md:hover:pl-4 md:hover:bg-gradient-to-r md:hover:from-blush/30 md:hover:to-transparent"
               >
                 <div className="text-center sm:text-left">
                   <h4 className="font-serif text-xl text-charcoal mb-1">{service.name}</h4>
@@ -137,7 +137,7 @@ export default function Services() {
             {services.pedicures.map((service, index) => (
               <div
                 key={index}
-                className="grid grid-cols-1 sm:grid-cols-[1fr_auto] gap-2 sm:gap-8 py-6 border-b border-blush items-center transition-all duration-300 hover:pl-4 hover:bg-gradient-to-r hover:from-blush/30 hover:to-transparent"
+                className="grid grid-cols-1 sm:grid-cols-[1fr_auto] gap-2 sm:gap-8 py-6 border-b border-blush items-center transition-all duration-300 md:hover:pl-4 md:hover:bg-gradient-to-r md:hover:from-blush/30 md:hover:to-transparent"
               >
                 <div className="text-center sm:text-left">
                   <h4 className="font-serif text-xl text-charcoal mb-1">{service.name}</h4>
@@ -160,7 +160,7 @@ export default function Services() {
             {services.enhancements.map((service, index) => (
               <div
                 key={index}
-                className="grid grid-cols-1 sm:grid-cols-[1fr_auto] gap-2 sm:gap-8 py-4 border-b border-blush items-center transition-all duration-300 hover:pl-4 hover:bg-gradient-to-r hover:from-blush/30 hover:to-transparent"
+                className="grid grid-cols-1 sm:grid-cols-[1fr_auto] gap-2 sm:gap-8 py-4 border-b border-blush items-center transition-all duration-300 md:hover:pl-4 md:hover:bg-gradient-to-r md:hover:from-blush/30 md:hover:to-transparent"
               >
                 <div className="text-center sm:text-left">
                   <h4 className="font-serif text-lg text-charcoal">{service.name}</h4>
