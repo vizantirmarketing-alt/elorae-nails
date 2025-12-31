@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Montserrat:wght@300;400;500&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  letter-spacing: 0.02em;
+}
+
+@layer components {
+  .btn {
+    @apply inline-block px-10 py-4 text-[0.7rem] tracking-[0.2em] uppercase no-underline border border-charcoal text-charcoal bg-transparent transition-all duration-300 cursor-pointer;
+  }
+
+  .btn:hover {
+    @apply bg-charcoal text-cream;
+  }
+
+  .btn-primary {
+    @apply bg-charcoal text-cream;
+  }
+
+  .btn-primary:hover {
+    @apply bg-transparent text-charcoal;
+  }
+
+  .section-label {
+    @apply text-[0.7rem] tracking-[0.3em] uppercase text-rose mb-4;
+  }
+}
+
+@keyframes scrollPulse {
+  0%, 100% { opacity: 0.3; }
+  50% { opacity: 1; }
+}
+
+.animate-scroll-pulse {
+  animation: scrollPulse 2s ease-in-out infinite;
+}
+
+.placeholder-img {
+  background: linear-gradient(135deg, #E8DCD5 0%, #C9B8B1 50%, #B89B94 100%);
+}
+
+.placeholder-img-1 { background: linear-gradient(135deg, #E8DCD5 0%, #D4C4BC 100%); }
+.placeholder-img-2 { background: linear-gradient(135deg, #C9B8B1 0%, #B89B94 100%); }
+.placeholder-img-3 { background: linear-gradient(135deg, #D4C4BC 0%, #C9B8B1 100%); }
+.placeholder-img-4 { background: linear-gradient(135deg, #B89B94 0%, #A68B84 100%); }
+.placeholder-img-5 { background: linear-gradient(135deg, #E8DCD5 0%, #C9B8B1 100%); }
+.placeholder-img-6 { background: linear-gradient(135deg, #C4A87C 0%, #B89B94 100%); }
+.placeholder-img-7 { background: linear-gradient(135deg, #D4C4BC 0%, #E8DCD5 100%); }
+.placeholder-img-8 { background: linear-gradient(135deg, #B89B94 0%, #C9B8B1 100%); }
