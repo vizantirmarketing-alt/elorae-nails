@@ -15,14 +15,14 @@ export default function Contact() {
         {/* Contact Methods */}
         <div className="flex justify-center gap-6 flex-wrap mb-16">
           <a
-            href="tel:7022092758"
+            href="tel:+17022092758"
             className="flex items-center gap-3 px-6 py-4 border border-warm-gray text-cream text-sm tracking-wide transition-all duration-300 hover:border-gold hover:bg-gold/10"
           >
             <PhoneIcon className="w-5 h-5 stroke-gold" />
             Call (702) 209-2758
           </a>
           <a
-            href="sms:7026132115"
+            href="sms:+17026132115"
             className="flex items-center gap-3 px-6 py-4 border border-warm-gray text-cream text-sm tracking-wide transition-all duration-300 hover:border-gold hover:bg-gold/10"
           >
             <MessageIcon className="w-5 h-5 stroke-gold" />
