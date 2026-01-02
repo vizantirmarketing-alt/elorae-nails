@@ -47,8 +47,12 @@ export default function Navbar() {
         }`}
       >
         {/* Logo */}
-        <a href="/" className="font-serif text-2xl font-light tracking-[0.15em] text-charcoal">
-          ELORAE
+        <a href="/" className="relative z-10">
+          <img 
+            src="/logos/elorae-logo-primary.svg" 
+            alt="Elorae" 
+            className="h-14 w-auto"
+          />
         </a>
 
         {/* Desktop Nav */}
@@ -100,9 +104,13 @@ export default function Navbar() {
           <a
             href="/"
             onClick={handleLinkClick}
-            className="font-serif text-xl tracking-[0.2em] text-rose mb-16"
+            className="mb-16"
           >
-            ELORAE
+            <img 
+              src="/logos/elorae-logo-primary.svg" 
+              alt="Elorae" 
+              className="h-14 w-auto"
+            />
           </a>
 
           {/* Nav Links */}

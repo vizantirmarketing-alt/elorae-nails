@@ -1,4 +1,4 @@
-import { MessageIcon, MailIcon, InstagramIcon, TikTokIcon } from "./Icons";
+import { PhoneIcon, MessageIcon, MailIcon, InstagramIcon, TikTokIcon } from "./Icons";
 
 export default function Contact() {
   return (
@@ -15,18 +15,25 @@ export default function Contact() {
         {/* Contact Methods */}
         <div className="flex justify-center gap-6 flex-wrap mb-16">
           <a
-            href="sms:+17025550123"
+            href="tel:7022092758"
+            className="flex items-center gap-3 px-6 py-4 border border-warm-gray text-cream text-sm tracking-wide transition-all duration-300 hover:border-gold hover:bg-gold/10"
+          >
+            <PhoneIcon className="w-5 h-5 stroke-gold" />
+            Call (702) 209-2758
+          </a>
+          <a
+            href="sms:7026132115"
             className="flex items-center gap-3 px-6 py-4 border border-warm-gray text-cream text-sm tracking-wide transition-all duration-300 hover:border-gold hover:bg-gold/10"
           >
             <MessageIcon className="w-5 h-5 stroke-gold" />
-            Text (702) 555-0123
+            Text (702) 613-2115
           </a>
           <a
-            href="mailto:hello@eloraenails.com"
+            href="mailto:eloraenails@gmail.com"
             className="flex items-center gap-3 px-6 py-4 border border-warm-gray text-cream text-sm tracking-wide transition-all duration-300 hover:border-gold hover:bg-gold/10"
           >
             <MailIcon className="w-5 h-5 stroke-gold" />
-            hello@eloraenails.com
+            eloraenails@gmail.com
           </a>
         </div>
 
@@ -36,11 +43,9 @@ export default function Contact() {
             Studio Location
           </h4>
           <p className="text-cream text-lg leading-loose">
-            Sola Salon Studios
+            6035 S. Durango Dr
             <br />
-            4825 S Fort Apache Rd, Suite 120
-            <br />
-            Las Vegas, NV 89147
+            Las Vegas, NV 89113
           </p>
           <p className="text-mauve text-sm mt-2">By appointment only</p>
         </div>

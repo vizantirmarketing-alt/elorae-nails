@@ -54,6 +54,24 @@ export default function Terms() {
           </section>
 
           <section>
+            <h2 className="font-serif text-2xl text-charcoal mb-4">Satisfaction & Repairs</h2>
+            <p className="mb-4">
+              Your satisfaction matters to me. If you&apos;re unhappy with your nails, please let me 
+              know before leaving your appointment so I can make adjustments.
+            </p>
+            <p className="mb-4">
+              I offer complimentary repairs for lifting or chips within 7 days of your service — 
+              simply reach out via text or DM to schedule. Repairs after 7 days are available at 
+              a reduced rate.
+            </p>
+            <p>
+              Breakage due to accidents, improper care, or self-removal is not covered. 
+              Refunds are not offered for completed services, but I will always work with you 
+              to make it right.
+            </p>
+          </section>
+
+          <section>
             <h2 className="font-serif text-2xl text-charcoal mb-4">Nail Care</h2>
             <p>
               Proper aftercare is essential for long-lasting nails. I am not responsible 

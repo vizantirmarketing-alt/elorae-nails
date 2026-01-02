@@ -1,0 +1,24 @@
+<svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+  
+  <!-- Italic E -->
+  <text 
+    x="40" 
+    y="52" 
+    font-family="Cormorant Garamond, Garamond, 'EB Garamond', serif" 
+    font-size="48" 
+    font-weight="300" 
+    font-style="italic"
+    fill="#2C2826"
+    text-anchor="middle">
+    E
+  </text>
+  
+  <!-- Small curved swash under -->
+  <path 
+    d="M22 58 Q40 65 58 58" 
+    stroke="#B89B94" 
+    stroke-width="0.75" 
+    fill="none"
+    stroke-linecap="round"/>
+    
+</svg>

@@ -7,6 +7,9 @@ import Footer from "@/components/Footer";
 export const metadata: Metadata = {
   title: "Elorae Nails | Luxury Nail Art Studio",
   description: "Private nail studio in Las Vegas. Nail artistry in an intimate setting.",
+  icons: {
+    icon: "/logos/elorae-icon.svg",
+  },
 };
 
 export default function RootLayout({

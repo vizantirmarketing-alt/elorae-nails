@@ -6,9 +6,13 @@ export default function Footer() {
       <div className="max-w-4xl mx-auto flex flex-col md:flex-row justify-between items-center gap-6">
         <Link
           href="/"
-          className="font-serif text-lg text-cream tracking-wide no-underline hover:text-rose transition-colors duration-300"
+          className="no-underline"
         >
-          ELORAE NAILS
+          <img 
+            src="/logos/elorae-logo-white.svg" 
+            alt="Elorae" 
+            className="h-8 w-auto"
+          />
         </Link>
 
         <div className="flex gap-8">
