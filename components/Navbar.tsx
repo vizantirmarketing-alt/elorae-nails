@@ -39,11 +39,12 @@ export default function Navbar() {
 
   return (
     <>
+      {/* Mobile Navbar - Horizontal Top Bar */}
       <nav
-        className={`fixed top-0 left-0 right-0 z-50 flex justify-between items-center transition-all duration-300 ${
+        className={`lg:hidden fixed top-0 left-0 right-0 z-50 flex justify-between items-center transition-all duration-300 ${
           isScrolled
-            ? 'py-4 px-8 lg:px-16 bg-cream/95 backdrop-blur-md'
-            : 'py-6 px-8 lg:px-16 bg-gradient-to-b from-cream to-transparent'
+            ? 'py-4 px-4 bg-cream/95 backdrop-blur-md'
+            : 'py-6 px-4 bg-gradient-to-b from-cream to-transparent'
         }`}
       >
         {/* Logo */}
@@ -51,34 +52,77 @@ export default function Navbar() {
           <img 
             src="/logos/elorae-logo-primary.svg" 
             alt="Elorae" 
-            className="h-14 w-auto"
+            className="h-10 w-auto"
           />
         </a>
-
-        {/* Desktop Nav */}
-        <ul className="hidden md:flex gap-12">
-          {navLinks.map((link) => (
-            <li key={link.href}>
-              <a
-                href={link.href}
-                className="text-[0.75rem] tracking-[0.15em] uppercase text-warm-gray hover:text-charcoal transition-colors duration-300 relative after:content-[''] after:absolute after:bottom-[-4px] after:left-0 after:w-0 after:h-px after:bg-gold after:transition-all after:duration-300 hover:after:w-full"
-              >
-                {link.label}
-              </a>
-            </li>
-          ))}
-        </ul>
 
         {/* Hamburger Button - Mobile Only */}
         <button
           onClick={() => setIsMenuOpen(true)}
-          className="md:hidden flex flex-col justify-center items-center w-10 h-10 gap-[6px]"
+          className="flex flex-col justify-center items-center w-8 h-8 gap-[5px]"
           aria-label="Open menu"
         >
-          <span className="w-6 h-px bg-charcoal transition-all duration-300" />
-          <span className="w-6 h-px bg-charcoal transition-all duration-300" />
+          <span className="w-5 h-px bg-charcoal transition-all duration-300" />
+          <span className="w-5 h-px bg-charcoal transition-all duration-300" />
         </button>
       </nav>
+
+      {/* Desktop Navbar - Horizontal Top Bar (Default State) */}
+      {!isScrolled && (
+        <nav className="hidden lg:flex fixed top-0 left-0 right-0 z-50 justify-between items-center py-6 px-16 bg-gradient-to-b from-cream to-transparent transition-all duration-300">
+          {/* Logo */}
+          <a href="/" className="relative z-10">
+            <img 
+              src="/logos/elorae-logo-primary.svg" 
+              alt="Elorae" 
+              className="h-14 w-auto"
+            />
+          </a>
+
+          {/* Desktop Nav Links */}
+          <ul className="flex gap-12">
+            {navLinks.map((link) => (
+              <li key={link.href}>
+                <a
+                  href={link.href}
+                  className="text-[0.75rem] tracking-[0.15em] uppercase text-warm-gray hover:text-rose transition-colors duration-300 relative after:content-[''] after:absolute after:bottom-[-4px] after:left-0 after:w-0 after:h-px after:bg-rose after:transition-all after:duration-300 hover:after:w-full"
+                >
+                  {link.label}
+                </a>
+              </li>
+            ))}
+          </ul>
+        </nav>
+      )}
+
+      {/* Desktop Navbar - Collapsed Left Sidebar (After Scrolling) */}
+      {isScrolled && (
+        <nav className="hidden lg:flex fixed left-0 top-0 h-full z-50">
+          <div className="w-12 bg-cream/95 backdrop-blur-sm border-r border-mauve/20 flex flex-col items-center py-8">
+            {/* Logo Icon */}
+            <a href="/" className="mb-12">
+              <img 
+                src="/logos/elorae-icon.svg" 
+                alt="Elorae" 
+                className="h-6 w-auto"
+              />
+            </a>
+
+            {/* Nav Links - Vertical Rotated Text */}
+            <nav className="flex flex-col items-center gap-12">
+              {navLinks.map((link) => (
+                <a
+                  key={link.href}
+                  href={link.href}
+                  className="text-[0.65rem] tracking-[0.2em] uppercase text-warm-gray hover:text-rose transition-colors duration-300 [writing-mode:vertical-rl] rotate-180"
+                >
+                  {link.label}
+                </a>
+              ))}
+            </nav>
+          </div>
+        </nav>
+      )}
 
       {/* Full Screen Mobile Menu */}
       <div
@@ -109,7 +153,7 @@ export default function Navbar() {
             <img 
               src="/logos/elorae-logo-primary.svg" 
               alt="Elorae" 
-              className="h-14 w-auto"
+              className="h-10 w-auto"
             />
           </a>
 

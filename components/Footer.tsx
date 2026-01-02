@@ -36,10 +36,13 @@ export default function Footer() {
           </Link>
         </div>
 
-        <p className="text-[0.7rem] text-warm-gray">
+        <p className="text-[0.7rem] text-white/60">
           © {new Date().getFullYear()} Elorae Nails
         </p>
       </div>
+      <p className="text-xs text-white/40 mt-8 text-center">
+        Developed by <a href="https://vizantir.com" target="_blank" rel="noopener noreferrer" className="hover:text-rose transition-colors">Vizantir</a>
+      </p>
     </footer>
   );
 }

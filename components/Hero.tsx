@@ -10,14 +10,14 @@ export default function Hero() {
 
       {/* Content */}
       <div className="relative z-10 max-w-3xl">
-        <p className="text-[0.75rem] tracking-[0.4em] uppercase text-rose mb-8">
+        <p className="text-[0.75rem] tracking-[0.4em] uppercase text-[#6B6361] mb-8">
           Private Nail Studio · Las Vegas
         </p>
-        <h1 className="font-serif font-light text-charcoal text-5xl sm:text-6xl md:text-7xl lg:text-8xl leading-none mb-4">
+        <h1 className="font-serif font-light text-[#2C2826] text-5xl sm:text-6xl md:text-7xl lg:text-8xl leading-none mb-4">
           Elorae
-          <em className="block italic text-rose">Nails</em>
+          <em className="block italic text-[#A68A84]">Nails</em>
         </h1>
-        <p className="font-serif text-xl sm:text-2xl italic text-warm-gray mb-12">
+        <p className="font-serif text-xl sm:text-2xl italic text-[#6B6361] mb-12">
           Nail artistry in an intimate setting
         </p>
         <a href="#booking" className="btn btn-primary">
