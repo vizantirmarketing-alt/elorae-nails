@@ -28,14 +28,14 @@ export default function Terms() {
               higher deposit for future bookings.
             </p>
             <p>
-              To reschedule, please contact me via text or Instagram DM as soon as possible.
+              To reschedule, please contact the studio via text as soon as possible.
             </p>
           </section>
 
           <section>
             <h2 className="font-serif text-2xl text-charcoal mb-4">Health & Safety</h2>
             <p className="mb-4">
-              Please inform me of any allergies, sensitivities, or medical conditions 
+              Please inform the studio of any allergies, sensitivities, or medical conditions 
               that may affect your service. If you have any signs of infection on your 
               hands or nails, please reschedule your appointment.
             </p>
@@ -56,17 +56,17 @@ export default function Terms() {
           <section>
             <h2 className="font-serif text-2xl text-charcoal mb-4">Satisfaction & Repairs</h2>
             <p className="mb-4">
-              Your satisfaction matters to me. If you&apos;re unhappy with your nails, please let me 
-              know before leaving your appointment so I can make adjustments.
+              Your satisfaction matters. If you&apos;re unhappy with your nails, please let the studio 
+              know before leaving your appointment so adjustments can be made.
             </p>
             <p className="mb-4">
-              I offer complimentary repairs for lifting or chips within 7 days of your service — 
-              simply reach out via text or DM to schedule. Repairs after 7 days are available at 
+              The studio offers complimentary repairs for lifting or chips within 7 days of your service — 
+              simply reach out via text to schedule. Repairs after 7 days are available at 
               a reduced rate.
             </p>
             <p>
               Breakage due to accidents, improper care, or self-removal is not covered. 
-              Refunds are not offered for completed services, but I will always work with you 
+              Refunds are not offered for completed services, but the studio will work with you 
               to make it right.
             </p>
           </section>
@@ -74,7 +74,7 @@ export default function Terms() {
           <section>
             <h2 className="font-serif text-2xl text-charcoal mb-4">Nail Care</h2>
             <p>
-              Proper aftercare is essential for long-lasting nails. I am not responsible 
+              Proper aftercare is essential for long-lasting nails. The studio is not responsible 
               for damage caused by improper care, self-removal, or external factors. 
               Repairs within 7 days of service may be offered at a reduced rate.
             </p>

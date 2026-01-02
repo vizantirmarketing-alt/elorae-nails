@@ -6,10 +6,10 @@ export default function Contact() {
       <div className="max-w-4xl mx-auto text-center">
         <p className="section-label text-rose">Contact</p>
         <h2 className="font-serif text-4xl sm:text-5xl font-light mb-4">
-          Let&apos;s <em className="italic text-rose">connect</em>
+          Contact
         </h2>
         <p className="text-mauve mb-12">
-          Questions? Want to discuss a custom design? Reach out anytime.
+          Fastest response is text. For booking changes, include your name and appointment time.
         </p>
 
         {/* Contact Methods */}
@@ -19,14 +19,14 @@ export default function Contact() {
             className="flex items-center gap-3 px-6 py-4 border border-warm-gray text-cream text-sm tracking-wide transition-all duration-300 hover:border-gold hover:bg-gold/10"
           >
             <PhoneIcon className="w-5 h-5 stroke-gold" />
-            Call (702) 209-2758
+            Call
           </a>
           <a
             href="sms:+17026132115"
             className="flex items-center gap-3 px-6 py-4 border border-warm-gray text-cream text-sm tracking-wide transition-all duration-300 hover:border-gold hover:bg-gold/10"
           >
             <MessageIcon className="w-5 h-5 stroke-gold" />
-            Text (702) 613-2115
+            Text Us
           </a>
           <a
             href="mailto:eloraenails@gmail.com"

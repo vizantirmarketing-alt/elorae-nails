@@ -14,18 +14,17 @@ export default function About() {
         <div className="text-center md:text-left">
           <p className="section-label">About</p>
           <h2 className="font-serif text-3xl sm:text-4xl lg:text-5xl font-light leading-tight mb-8">
-            Nails are our craft, not just our job
+            An Appointment-Only Studio Built on Standards
           </h2>
           <p className="text-charcoal text-lg mb-5">
-            I&apos;ve been doing nails for almost 30 years. The team here has been with me a long time — no revolving door, just people who genuinely care about the work.
+            Elorae Nails is a private beauty studio built around structure, consistency, and elevated service standards.
           </p>
           <p className="text-warm-gray mb-5">
-            No rush. No chaos. Just real attention to detail and a space where you can actually relax.
+            Every appointment follows a clear process, from prep to finish, so results stay clean, professional, and long-lasting.
           </p>
           <p className="text-warm-gray mb-8">
-            Whether you want clean and classic or something more creative, we&apos;re here to make it happen.
+            The studio operates by appointment only, with a small licensed team and clear policies that respect both client and technician time.
           </p>
-          <p className="font-serif italic text-3xl text-rose">— James & Team</p>
         </div>
       </div>
     </section>

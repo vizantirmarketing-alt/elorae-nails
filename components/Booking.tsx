@@ -7,7 +7,7 @@ export default function Booking() {
           Ready for your <em className="italic text-rose">appointment?</em>
         </h2>
         <p className="text-warm-gray mb-10 text-lg">
-          DM me on Instagram for the fastest response, or book directly online. Can&apos;t wait to create something beautiful for you.
+          Text us for the fastest response, or book directly online.
         </p>
 
         {/* Buttons */}
@@ -16,12 +16,10 @@ export default function Booking() {
             Book Online
           </a>
           <a
-            href="https://instagram.com/eloraenails"
-            target="_blank"
-            rel="noopener noreferrer"
+            href="sms:+17026132115"
             className="btn"
           >
-            DM on Instagram
+            Text Us
           </a>
         </div>
 
