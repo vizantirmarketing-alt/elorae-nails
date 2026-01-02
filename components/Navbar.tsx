@@ -114,7 +114,7 @@ export default function Navbar() {
                 <a
                   key={link.href}
                   href={link.href}
-                  className="text-[0.65rem] tracking-[0.2em] uppercase text-warm-gray hover:text-rose transition-colors duration-300 [writing-mode:vertical-rl] rotate-180"
+                  className="text-[0.65rem] tracking-[0.2em] uppercase text-warm-gray hover:text-rose transition-all duration-500 [writing-mode:vertical-rl] rotate-180 hover:drop-shadow-[0_0_8px_rgba(184,155,148,0.8)]"
                 >
                   {link.label}
                 </a>

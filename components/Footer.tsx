@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function Footer() {
   return (
     <footer className="bg-charcoal py-8 px-8 lg:px-16 border-t border-white/5">
-      <div className="max-w-4xl mx-auto flex flex-col md:flex-row justify-between items-center gap-6">
+      <div className="max-w-4xl mx-auto flex flex-col md:flex-row justify-between items-center gap-4">
         <Link
           href="/"
           className="no-underline"
@@ -36,13 +36,10 @@ export default function Footer() {
           </Link>
         </div>
 
-        <p className="text-[0.7rem] text-white/60">
-          © {new Date().getFullYear()} Elorae Nails
+        <p className="text-xs text-white/50">
+          © {new Date().getFullYear()} Elorae Nails | Developed by <a href="https://vizantir.com" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">Vizantir</a>
         </p>
       </div>
-      <p className="text-xs text-white/40 mt-8 text-center">
-        Developed by <a href="https://vizantir.com" target="_blank" rel="noopener noreferrer" className="hover:text-rose transition-colors">Vizantir</a>
-      </p>
     </footer>
   );
 }

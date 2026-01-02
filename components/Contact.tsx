@@ -2,7 +2,7 @@ import { PhoneIcon, MessageIcon, MailIcon, InstagramIcon, TikTokIcon } from "./I
 
 export default function Contact() {
   return (
-    <section id="contact" className="py-28 px-8 lg:px-16 bg-charcoal text-cream">
+    <section id="contact" className="pt-28 pb-8 px-8 lg:px-16 bg-charcoal text-cream">
       <div className="max-w-4xl mx-auto text-center">
         <p className="section-label text-rose">Contact</p>
         <h2 className="font-serif text-4xl sm:text-5xl font-light mb-4">
@@ -48,6 +48,27 @@ export default function Contact() {
             Las Vegas, NV 89113
           </p>
           <p className="text-mauve text-sm mt-2">By appointment only</p>
+        </div>
+
+        {/* Map */}
+        <div className="w-full max-w-2xl mx-auto mt-8 mb-8">
+          <a 
+            href="https://www.google.com/maps/search/?api=1&query=6035+S+Durango+Dr+Las+Vegas+NV+89113"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="block overflow-hidden"
+          >
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3224.578116420238!2d-115.28291892384622!3d36.079393007998725!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c8c77f7a3a997d%3A0x6762a0aa48cfbb66!2s6035%20S%20Durango%20Dr%2C%20Las%20Vegas%2C%20NV%2089113!5e0!3m2!1sen!2sus!4v1767330583324!5m2!1sen!2sus"
+              width="100%"
+              height="200"
+              style={{ border: 0 }}
+              allowFullScreen
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+              className="grayscale opacity-80 hover:grayscale-0 hover:opacity-100 transition-all duration-500"
+            />
+          </a>
         </div>
 
         {/* Social */}
