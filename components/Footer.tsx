@@ -10,8 +10,8 @@ export default function Footer() {
         >
           <img 
             src="/logos/elorae-logo-white.svg" 
-            alt="Elorae" 
-            className="h-8 w-auto"
+            alt="Eloraé" 
+            className="h-14 w-auto"
           />
         </Link>
 
