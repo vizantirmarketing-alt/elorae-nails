@@ -1,6 +1,6 @@
 export default function Hero() {
   return (
-    <section className="min-h-screen flex items-center justify-center text-center px-8 pt-32 pb-16 relative overflow-hidden bg-cream">
+    <section className="min-h-screen flex items-center justify-center text-center px-8 pt-40 lg:pt-0 pb-16 relative overflow-hidden bg-cream">
       {/* Background grid */}
       <div className="absolute inset-0 grid grid-cols-3 gap-1 opacity-[0.15] z-0">
         <div className="w-full h-full bg-gradient-to-br from-blush to-[#D4C4BC]" />

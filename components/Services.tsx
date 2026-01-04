@@ -103,7 +103,7 @@ export default function Services() {
         <div className="text-center mb-16">
           <p className="text-[0.7rem] tracking-[0.3em] uppercase text-rose mb-4">Services</p>
           <h2 className="font-serif text-4xl sm:text-5xl lg:text-6xl font-light text-charcoal">
-            What I Offer
+            What We Offer
           </h2>
         </div>
 

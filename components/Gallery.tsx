@@ -3,7 +3,7 @@ export default function Gallery() {
     <section id="gallery" className="py-28 bg-charcoal">
       {/* Header */}
       <div className="text-center px-8 lg:px-16 mb-16">
-        <p className="text-[0.7rem] tracking-[0.3em] uppercase text-rose mb-4">My Work</p>
+        <p className="text-[0.7rem] tracking-[0.3em] uppercase text-rose mb-4">Our Work</p>
         <h2 className="font-serif text-4xl sm:text-5xl lg:text-6xl font-light text-cream">
           Recent Creations
         </h2>
@@ -39,7 +39,7 @@ export default function Gallery() {
 
       {/* CTA */}
       <div className="text-center pt-16 px-8">
-        <p className="text-mauve mb-6 text-sm">See more of my work on Instagram</p>
+        <p className="text-mauve mb-6 text-sm">See more of our work on Instagram</p>
         <a
           href="https://instagram.com/eloraenails"
           target="_blank"
