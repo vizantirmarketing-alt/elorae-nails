@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     siteName: "Eloraé Nails",
     images: [
       {
-        url: "/og-image.png",
+        url: "https://eloraenails.com/og-image.png",
         width: 1200,
         height: 630,
         alt: "Eloraé Nails - Luxury Nail Art Studio",
