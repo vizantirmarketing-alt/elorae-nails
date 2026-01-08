@@ -30,7 +30,7 @@ export default function Navbar() {
     { href: '#about', label: 'About' },
     { href: '#gallery', label: 'Gallery' },
     { href: '#services', label: 'Services' },
-    { href: '#booking', label: 'Book' },
+    { href: 'https://go.booker.com/location/PinkSaltSalonandSpa', label: 'Book', external: true },
   ];
 
   const handleLinkClick = () => {
@@ -85,6 +85,7 @@ export default function Navbar() {
               <li key={link.href}>
                 <a
                   href={link.href}
+                  {...(link.external ? { target: '_blank', rel: 'noopener noreferrer' } : {})}
                   className="text-[0.75rem] tracking-[0.15em] uppercase text-warm-gray hover:text-rose transition-colors duration-300 relative after:content-[''] after:absolute after:bottom-[-4px] after:left-0 after:w-0 after:h-px after:bg-rose after:transition-all after:duration-300 hover:after:w-full"
                 >
                   {link.label}
@@ -114,6 +115,7 @@ export default function Navbar() {
                 <a
                   key={link.href}
                   href={link.href}
+                  {...(link.external ? { target: '_blank', rel: 'noopener noreferrer' } : {})}
                   className="text-[0.65rem] tracking-[0.2em] uppercase text-warm-gray hover:text-rose transition-all duration-500 [writing-mode:vertical-rl] rotate-180 hover:drop-shadow-[0_0_8px_rgba(184,155,148,0.8)]"
                 >
                   {link.label}
@@ -171,6 +173,7 @@ export default function Navbar() {
               >
                 <a
                   href={link.href}
+                  {...(link.external ? { target: '_blank', rel: 'noopener noreferrer' } : {})}
                   onClick={handleLinkClick}
                   className="font-serif text-4xl sm:text-5xl font-light text-charcoal hover:text-rose transition-colors duration-300"
                 >

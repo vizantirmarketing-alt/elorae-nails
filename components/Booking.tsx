@@ -12,7 +12,12 @@ export default function Booking() {
 
         {/* Buttons */}
         <div className="flex justify-center gap-4 flex-wrap mb-16">
-          <a href="#" className="btn btn-primary">
+          <a 
+            href="https://go.booker.com/location/PinkSaltSalonandSpa" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="btn btn-primary"
+          >
             Book Online
           </a>
           <a

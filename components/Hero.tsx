@@ -19,7 +19,12 @@ export default function Hero() {
         <p className="font-serif text-xl sm:text-2xl italic text-[#6B6361] mb-12">
           Clean standards, clear policies, and an appointment-only experience for better clients.
         </p>
-        <a href="#booking" className="btn btn-primary">
+        <a 
+          href="https://go.booker.com/location/PinkSaltSalonandSpa" 
+          target="_blank" 
+          rel="noopener noreferrer"
+          className="btn btn-primary"
+        >
           Book Online
         </a>
       </div>
