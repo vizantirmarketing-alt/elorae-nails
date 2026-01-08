@@ -5,10 +5,26 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "Elorae Nails | Luxury Nail Art Studio",
-  description: "Private nail studio in Las Vegas. Nail artistry in an intimate setting.",
+  title: "Eloraé Nails | Luxury Nail Art Studio",
+  description: "Private nail studio in Las Vegas. Clean standards, clear policies, and an appointment-only experience for better clients.",
   icons: {
     icon: "/logos/elorae-icon.svg",
+    apple: "/logos/elorae-icon.svg",
+  },
+  openGraph: {
+    title: "Eloraé Nails",
+    description: "Luxury Nail Art Studio · Las Vegas",
+    url: "https://eloraenails.com",
+    siteName: "Eloraé Nails",
+    images: [
+      {
+        url: "/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "Eloraé Nails - Luxury Nail Art Studio",
+      },
+    ],
+    type: "website",
   },
 };
 
