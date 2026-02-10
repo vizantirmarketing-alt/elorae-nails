@@ -3,6 +3,8 @@ import "./globals.css";
 import LenisProvider from "@/components/LenisProvider";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import GoogleAnalytics from "@/src/components/GoogleAnalytics";
+import MicrosoftClarity from "@/src/components/MicrosoftClarity";
 
 export const metadata: Metadata = {
   title: "Eloraé Nails | Luxury Nail Art Studio",
@@ -36,6 +38,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className="bg-cream text-charcoal leading-relaxed">
+        <GoogleAnalytics />
+        <MicrosoftClarity />
         <LenisProvider>
           <Navbar />
           {children}
