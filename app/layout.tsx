@@ -32,6 +32,61 @@ const localBusinessJsonLd = {
   sameAs: ["https://www.instagram.com/eloraenails"],
 };
 
+const faqJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: [
+    {
+      "@type": "Question",
+      name: "Do you accept walk-ins?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "No — Eloraé Nails is appointment-only. This keeps the experience focused and ensures every client gets dedicated time and attention.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "How do I book an appointment?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "You can book directly through the booking link on the site. New clients are welcome.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "What is your cancellation policy?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "We require 24 hours notice for cancellations. Late cancellations and no-shows may forfeit the deposit.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "Do you require a deposit?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Yes, a deposit is required to secure your appointment. This is applied toward your service total.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "What services do you offer?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "We offer manicures, pedicures, nail enhancements, and CBD spa treatments in a private appointment-only setting.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "Where are you located?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "We are located at 6035 S. Durango Dr, Las Vegas, NV 89113.",
+      },
+    },
+  ],
+};
+
 export const metadata: Metadata = {
   title: "Eloraé Nails | Private Luxury Nail Studio in Las Vegas",
   description:
@@ -79,6 +134,12 @@ export default function RootLayout({
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: JSON.stringify(localBusinessJsonLd),
+          }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(faqJsonLd),
           }}
         />
       </head>
