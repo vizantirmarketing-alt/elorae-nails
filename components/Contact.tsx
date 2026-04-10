@@ -39,9 +39,9 @@ export default function Contact() {
 
         {/* Location */}
         <div className="pt-12 border-t border-white/10">
-          <h4 className="text-[0.7rem] tracking-[0.2em] uppercase text-mauve mb-4 font-normal">
+          <p className="text-[0.7rem] tracking-[0.2em] uppercase text-mauve mb-4 font-normal">
             Studio Location
-          </h4>
+          </p>
           <p className="text-cream text-lg leading-loose">
             6035 S. Durango Dr
             <br />
@@ -56,9 +56,11 @@ export default function Contact() {
             href="https://www.google.com/maps/search/?api=1&query=6035+S+Durango+Dr+Las+Vegas+NV+89113"
             target="_blank"
             rel="noopener noreferrer"
+            aria-label="View Eloraé Nails on Google Maps"
             className="block overflow-hidden"
           >
             <iframe
+              title="Eloraé Nails location map"
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3224.578116420238!2d-115.28291892384622!3d36.079393007998725!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c8c77f7a3a997d%3A0x6762a0aa48cfbb66!2s6035%20S%20Durango%20Dr%2C%20Las%20Vegas%2C%20NV%2089113!5e0!3m2!1sen!2sus!4v1767330583324!5m2!1sen!2sus"
               width="100%"
               height="200"

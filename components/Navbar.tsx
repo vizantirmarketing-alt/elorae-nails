@@ -52,6 +52,8 @@ export default function Navbar() {
           <img 
             src="/logos/elorae-logo-primary.svg" 
             alt="Elorae" 
+            width={160}
+            height={64}
             className="h-16 w-auto"
           />
         </a>
@@ -75,6 +77,8 @@ export default function Navbar() {
             <img 
               src="/logos/elorae-logo-primary.svg" 
               alt="Elorae" 
+              width={160}
+              height={64}
               className="h-16 w-auto"
             />
           </a>
@@ -155,6 +159,8 @@ export default function Navbar() {
             <img 
               src="/logos/elorae-logo-primary.svg" 
               alt="Elorae" 
+              width={160}
+              height={64}
               className="h-16 w-auto"
             />
           </a>

@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Script from "next/script";
 import "./globals.css";
 import LenisProvider from "@/components/LenisProvider";
 import Navbar from "@/components/Navbar";
@@ -80,11 +81,15 @@ export default function RootLayout({
             __html: JSON.stringify(localBusinessJsonLd),
           }}
         />
-        <script
-          async
+      </head>
+      <body className="bg-cream text-charcoal leading-relaxed">
+        <Script
           src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GA_ID}`}
+          strategy="lazyOnload"
         />
-        <script
+        <Script
+          id="google-analytics"
+          strategy="lazyOnload"
           dangerouslySetInnerHTML={{
             __html: `
       window.dataLayer = window.dataLayer || [];
@@ -94,8 +99,6 @@ export default function RootLayout({
     `,
           }}
         />
-      </head>
-      <body className="bg-cream text-charcoal leading-relaxed">
         <MicrosoftClarity />
         <LenisProvider>
           <Navbar />

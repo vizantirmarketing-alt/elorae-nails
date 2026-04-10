@@ -11,6 +11,8 @@ export default function Footer() {
           <img 
             src="/logos/elorae-logo-white.svg" 
             alt="Eloraé" 
+            width={140}
+            height={56}
             className="h-14 w-auto"
           />
         </Link>
