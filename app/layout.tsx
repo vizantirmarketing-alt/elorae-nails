@@ -3,7 +3,6 @@ import "./globals.css";
 import LenisProvider from "@/components/LenisProvider";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
-import GoogleAnalytics from "@/src/components/GoogleAnalytics";
 import MicrosoftClarity from "@/src/components/MicrosoftClarity";
 
 const localBusinessJsonLd = {
@@ -81,9 +80,22 @@ export default function RootLayout({
             __html: JSON.stringify(localBusinessJsonLd),
           }}
         />
+        <script
+          async
+          src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GA_ID}`}
+        />
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', '${process.env.NEXT_PUBLIC_GA_ID}');
+    `,
+          }}
+        />
       </head>
       <body className="bg-cream text-charcoal leading-relaxed">
-        <GoogleAnalytics />
         <MicrosoftClarity />
         <LenisProvider>
           <Navbar />
