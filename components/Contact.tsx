@@ -47,6 +47,12 @@ export default function Contact() {
             <br />
             Las Vegas, NV 89113
           </p>
+          <a 
+            href="tel:+17026132115" 
+            className="text-warm-gray text-sm hover:text-charcoal transition-colors duration-200"
+          >
+            (702) 613-2115
+          </a>
           <p className="text-mauve text-sm mt-2">By appointment only</p>
         </div>
 

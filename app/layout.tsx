@@ -11,7 +11,7 @@ const localBusinessJsonLd = {
   "@type": "NailSalon",
   name: "Eloraé Nails",
   url: "https://www.eloraenails.com",
-  telephone: "+17023725051",
+  telephone: "+17026132115",
   email: "hello@eloraenails.com",
   description:
     "Private appointment-only luxury nail studio in Las Vegas offering manicures, pedicures, nail enhancements, and CBD spa treatments.",
