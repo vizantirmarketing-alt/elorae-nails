@@ -20,19 +20,19 @@ export default function Footer() {
         <div className="flex gap-8">
           <Link
             href="/terms"
-            className="text-[0.7rem] tracking-wide uppercase text-warm-gray no-underline transition-colors duration-300 hover:text-cream"
+            className="text-[0.7rem] tracking-wide uppercase text-white/70 no-underline transition-colors duration-300 hover:text-cream"
           >
             Terms
           </Link>
           <Link
             href="/faq"
-            className="text-[0.7rem] tracking-wide uppercase text-warm-gray no-underline transition-colors duration-300 hover:text-cream"
+            className="text-[0.7rem] tracking-wide uppercase text-white/70 no-underline transition-colors duration-300 hover:text-cream"
           >
             FAQ
           </Link>
           <Link
             href="/blog"
-            className="text-[0.7rem] tracking-wide uppercase text-warm-gray no-underline transition-colors duration-300 hover:text-cream"
+            className="text-[0.7rem] tracking-wide uppercase text-white/70 no-underline transition-colors duration-300 hover:text-cream"
           >
             Blog
           </Link>

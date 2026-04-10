@@ -37,9 +37,9 @@ export default function Booking() {
             <p className="font-serif text-xl text-charcoal">$25 to book</p>
           </div>
           <div className="text-center">
-            <h4 className="text-[0.7rem] tracking-[0.15em] uppercase text-warm-gray mb-2 font-normal">
+            <p className="text-[0.7rem] tracking-[0.15em] uppercase text-warm-gray mb-2 font-normal">
               Cancellation
-            </h4>
+            </p>
             <p className="font-serif text-xl text-charcoal">24 hrs notice</p>
           </div>
           <div className="text-center">
