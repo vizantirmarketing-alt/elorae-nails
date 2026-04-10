@@ -3,6 +3,7 @@
 import Script from 'next/script'
 
 const GA_ID = process.env.NEXT_PUBLIC_GA_ID
+console.log('GA_ID:', GA_ID)
 
 export default function GoogleAnalytics() {
   if (!GA_ID) return null
