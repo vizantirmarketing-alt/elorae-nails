@@ -49,7 +49,7 @@ export default function Contact() {
           </p>
           <a 
             href="tel:+17026132115" 
-            className="text-warm-gray text-sm hover:text-charcoal transition-colors duration-200"
+            className="text-cream/70 text-sm hover:text-cream transition-colors duration-200"
           >
             (702) 613-2115
           </a>
