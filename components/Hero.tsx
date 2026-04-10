@@ -14,7 +14,7 @@ export default function Hero() {
           Private Nail Studio · Las Vegas
         </p>
         <h1 className="font-serif font-light text-[#2C2826] text-5xl sm:text-6xl md:text-7xl lg:text-8xl leading-none mb-4">
-          Private Beauty Studio in Las Vegas
+          Private Luxury Nail Studio in Las Vegas
         </h1>
         <p className="font-serif text-xl sm:text-2xl italic text-[#6B6361] mb-12">
           Clean standards, clear policies, and an appointment-only experience for better clients.
