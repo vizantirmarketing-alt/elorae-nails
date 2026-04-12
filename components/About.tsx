@@ -17,19 +17,19 @@ export default function About() {
             An Appointment-Only Studio Built on Standards
           </h2>
           <p className="text-charcoal text-lg mb-5">
-            Eloraé Nails is a private nail studio in Las Vegas built around structure, consistency, and elevated service standards.
+            Eloraé Nails is a private nail studio in Las Vegas focused on clean work, consistency, and a calm client experience.
           </p>
           <p className="text-warm-gray mb-5">
-            Every appointment follows a clear process from prep to finish, so results stay clean, professional, and long-lasting. Tools are sanitized between every client, surfaces are kept clean, and the environment stays calm and focused — because the details matter.
+            Every appointment has the same careful process, from prep to finish, so your nails look clean and last well. We sanitize tools between every client, keep surfaces clean, and make sure the space stays calm and focused.
           </p>
           <p className="text-warm-gray mb-5">
-            This studio is for clients who want a reliable experience. Not a walk-in shop where you wait an hour and get rushed through. Just a clean, private space where your appointment is respected and the work is done right.
+            This studio is for clients who want a consistent, professional appointment every time. It's not a walk-in shop, so you're not waiting around or getting rushed. Just a clean, private space where your appointment gets the time and attention it deserves.
           </p>
           <p className="text-warm-gray mb-8">
-            The studio operates by appointment only with a small licensed team and clear policies that respect both client and technician time.
+            We're appointment only, with a small licensed team and clear policies so everyone's time is respected.
           </p>
           <p className="text-warm-gray mb-8">
-            We work with clients for everyday nail care, special occasions, and everything in between — bridal appointments, birthday celebrations, and Las Vegas event nails included.
+            We do everyday nail care, bridal nails, birthday sets, and nails for Vegas events too.
           </p>
         </div>
       </div>

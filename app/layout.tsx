@@ -119,7 +119,7 @@ const faqJsonLd = {
       name: "Do you accept walk-ins?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "No — Eloraé Nails is appointment-only. This keeps the experience focused and ensures every client gets dedicated time and attention.",
+        text: "No — we're appointment only. That helps us keep the experience calm and gives each client proper time.",
       },
     },
     {
@@ -127,7 +127,7 @@ const faqJsonLd = {
       name: "How do I book an appointment?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "You can book directly through the booking link on the site. New clients are welcome.",
+        text: "You can book through the link on this site, and yes, we do take new clients.",
       },
     },
     {
@@ -135,7 +135,7 @@ const faqJsonLd = {
       name: "What is your cancellation policy?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "We require 24 hours notice for cancellations. Late cancellations and no-shows may forfeit the deposit.",
+        text: "We ask for 24 hours' notice for cancellations. Late cancellations and no-shows may lose the deposit.",
       },
     },
     {
@@ -143,7 +143,7 @@ const faqJsonLd = {
       name: "Do you require a deposit?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Yes, a deposit is required to secure your appointment. This is applied toward your service total.",
+        text: "Yes, we take a deposit to hold your appointment, and it goes toward your total.",
       },
     },
     {
@@ -151,7 +151,7 @@ const faqJsonLd = {
       name: "What services do you offer?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "We offer manicures, pedicures, nail enhancements, and hemp-infused spa treatments in a private appointment-only setting.",
+        text: "We offer manicures, pedicures, nail enhancements, and hemp spa treatments by appointment.",
       },
     },
     {

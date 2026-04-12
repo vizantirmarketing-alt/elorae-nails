@@ -6,27 +6,27 @@ const faqs = [
   {
     question: 'Do you accept walk-ins?',
     answer:
-      'No — Eloraé Nails is appointment-only. This keeps the experience focused and ensures every client gets dedicated time and attention.',
+      "No — we're appointment only. That helps us keep the experience calm and gives each client proper time.",
   },
   {
     question: 'How do I book an appointment?',
     answer:
-      'You can book directly through the booking link on this site. New clients are welcome.',
+      'You can book through the link on this site, and yes, we do take new clients.',
   },
   {
     question: 'What is your cancellation policy?',
     answer:
-      'We require 24 hours notice for cancellations. Late cancellations and no-shows may forfeit the deposit.',
+      "We ask for 24 hours' notice for cancellations. Late cancellations and no-shows may lose the deposit.",
   },
   {
     question: 'Do you require a deposit?',
     answer:
-      'Yes, a deposit is required to secure your appointment. This is applied toward your service total.',
+      'Yes, we take a deposit to hold your appointment, and it goes toward your total.',
   },
   {
     question: 'What services do you offer?',
     answer:
-      'We offer manicures, pedicures, nail enhancements, and Hemp spa treatments — all in a private, appointment-only setting.',
+      'We offer manicures, pedicures, nail enhancements, and hemp spa treatments by appointment.',
   },
   {
     question: 'Where are you located?',

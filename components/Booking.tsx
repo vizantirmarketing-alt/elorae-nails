@@ -4,10 +4,10 @@ export default function Booking() {
       <div className="max-w-2xl mx-auto">
         <p className="section-label">Book</p>
         <h2 className="font-serif text-4xl sm:text-5xl lg:text-6xl font-light leading-tight mb-6">
-          Ready for your <em className="italic text-rose">appointment?</em>
+          Ready to <em className="italic text-rose">book?</em>
         </h2>
         <p className="text-warm-gray mb-10 text-lg">
-          Text us for the fastest response, or book directly online.
+          Text us for the quickest response, or book online when you're ready.
         </p>
 
         {/* Buttons */}

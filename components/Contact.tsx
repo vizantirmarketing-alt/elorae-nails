@@ -9,7 +9,7 @@ export default function Contact() {
           Contact
         </h2>
         <p className="text-mauve mb-12">
-          Fastest response is text. For booking changes, include your name and appointment time.
+          Text is the fastest way to reach us. If you need to change a booking, include your name and appointment time.
         </p>
 
         {/* Contact Methods */}

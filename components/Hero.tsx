@@ -17,7 +17,7 @@ export default function Hero() {
           Private Luxury Nail Studio in Las Vegas
         </h1>
         <p className="font-serif text-xl sm:text-2xl italic text-[#6B6361] mb-12">
-          Clean standards, clear policies, and an appointment-only experience for better clients.
+          Clean work, clear policies, and an appointment-only studio for clients who want a calm, private experience.
         </p>
         <a 
           href="https://go.booker.com/location/PinkSaltSalonandSpa" 
