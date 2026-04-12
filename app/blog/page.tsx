@@ -73,6 +73,12 @@ const blogPosts = [
     title: "How to Choose a Nail Salon in Las Vegas",
     excerpt: "Las Vegas has hundreds of nail salons. Here is how to tell the difference between a place that will do great work and one that will waste your time and money.",
   },
+  {
+    slug: "nail-art-las-vegas",
+    date: "April 10, 2026",
+    title: "Nail Art in Las Vegas: Ideas, Styles, and What to Book",
+    excerpt: "Las Vegas is the perfect city for bold nail art. Here is a guide to the most popular styles, how to communicate what you want, and how to book nail art in Las Vegas.",
+  },
 ];
 
 export default function BlogPage() {

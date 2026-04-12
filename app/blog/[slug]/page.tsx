@@ -959,6 +959,54 @@ const blogContent: Record<string, {
 <p>Located at 6035 S. Durango Dr, Las Vegas. Book online or text us to schedule.</p>
     `,
   },
+  'nail-art-las-vegas': {
+    date: 'April 10, 2026',
+    title: 'Nail Art in Las Vegas: Ideas, Styles, and What to Book',
+    excerpt: 'Las Vegas is the perfect city for bold nail art. Here is a guide to the most popular styles, how to communicate what you want, and how to book nail art in Las Vegas.',
+    content: `
+<h2>Las Vegas Is Made for Nail Art</h2>
+
+<p>No other city in the world has quite the same energy as Las Vegas — and that energy shows up in how people dress, accessorize, and yes, wear their nails. From subtle elegance for a wedding to bold statement designs for a night out, nail art in Las Vegas runs the full spectrum.</p>
+
+<p>Here is a guide to the most popular styles and how to get exactly what you want at your appointment.</p>
+
+<h2>Popular Nail Art Styles Right Now</h2>
+
+<p><strong>Minimalist nail art:</strong> Clean lines, negative space, single accent details. A thin gold line, a small floral on one nail, or a geometric pattern. Perfect for clients who want something beyond solid color without being bold.</p>
+
+<p><strong>French variations:</strong> The classic French tip has evolved. Colored French tips, reverse French, double French lines, and ombre French are all popular. Works on any length and photographs beautifully.</p>
+
+<p><strong>Floral designs:</strong> Hand-painted florals range from delicate single flowers to full-coverage botanical designs. Popular for spring, weddings, and events.</p>
+
+<p><strong>Chrome and foil:</strong> Mirror chrome, holographic foil, and metallic accents create high-impact looks that photograph extremely well. Popular for Vegas nights out and special events.</p>
+
+<p><strong>Ombre and gradient:</strong> Soft color transitions from one shade to another. Can be subtle — nude to soft pink — or bold — deep purple to silver. Works on any nail length.</p>
+
+<p><strong>Seasonal and holiday nail art:</strong> Las Vegas clients go all in for Halloween, Christmas, Valentine's Day, and New Year's Eve. Seasonal nail art is one of the most booked categories year-round.</p>
+
+<h2>How to Communicate What You Want</h2>
+
+<p>The most important thing you can do before a nail art appointment is bring reference photos. Save 3–5 images that reflect the style, color palette, and complexity you are looking for.</p>
+
+<p>Be specific about what you like in each photo. "I love the color in this one but want the design from this other one" is more useful than a single image. Your technician can then tell you what is achievable in your appointment time and on your nail length and shape.</p>
+
+<h2>How Long Does Nail Art Take</h2>
+
+<p>Simple nail art — a single accent nail or minimal design — adds 15–30 minutes to a standard appointment. Detailed hand-painted designs on all ten nails can add 60–90 minutes.</p>
+
+<p>When booking, mention that you want nail art so the right amount of time is reserved. Trying to add complex nail art to an appointment that was not scoped for it rarely produces the best results.</p>
+
+<h2>Nail Art Pricing</h2>
+
+<p>Nail art at Eloraé Nails is priced during consultation based on complexity and time required. Simple designs start lower, detailed custom work is priced accordingly. We will always discuss pricing before starting so there are no surprises.</p>
+
+<h2>Book Your Nail Art Appointment</h2>
+
+<p>Eloraé Nails is a private appointment-only nail studio in Las Vegas. Text us before booking to discuss your nail art ideas — we will help you plan the right appointment length and service combination.</p>
+
+<p>Located at 6035 S. Durango Dr, Las Vegas. Book online or text us.</p>
+    `,
+  },
 };
 
 export default function BlogPostPage({ params }: { params: { slug: string } }) {
