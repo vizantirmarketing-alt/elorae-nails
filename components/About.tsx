@@ -17,19 +17,19 @@ export default function About() {
             An Appointment-Only Studio Built on Standards
           </h2>
           <p className="text-charcoal text-lg mb-5">
-            Eloraé Nails is a private nail studio in Las Vegas focused on clean work, consistency, and a calm client experience.
+            Eloraé Nails is a private nail studio in Las Vegas. I keep things clean, consistent, and calm from start to finish.
           </p>
           <p className="text-warm-gray mb-5">
-            Every appointment has the same careful process, from prep to finish, so your nails look clean and last well. We sanitize tools between every client, keep surfaces clean, and make sure the space stays calm and focused.
+            Every appointment follows the same process, from prep to finish, so your nails look clean and hold up well. We sanitize tools between every client, keep the space clean, and keep things calm in the studio.
           </p>
           <p className="text-warm-gray mb-5">
-            This studio is for clients who want a consistent, professional appointment every time. It's not a walk-in shop, so you're not waiting around or getting rushed. Just a clean, private space where your appointment gets the time and attention it deserves.
+            This studio is for clients who want the same good experience every time they book. It's appointment only, so you're not sitting around waiting or feeling rushed. Just a clean, private space where you can relax and get taken care of properly.
           </p>
           <p className="text-warm-gray mb-8">
-            We're appointment only, with a small licensed team and clear policies so everyone's time is respected.
+            We're appointment only, with a small licensed team and clear policies so things run smoothly for everyone.
           </p>
           <p className="text-warm-gray mb-8">
-            We do everyday nail care, bridal nails, birthday sets, and nails for Vegas events too.
+            We do everyday nails, bridal sets, birthday nails, and event nails too.
           </p>
         </div>
       </div>

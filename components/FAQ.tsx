@@ -6,7 +6,7 @@ const faqs = [
   {
     question: 'Do you accept walk-ins?',
     answer:
-      "No — we're appointment only. That helps us keep the experience calm and gives each client proper time.",
+      "No — we're appointment only. That keeps things calm and gives each client enough time.",
   },
   {
     question: 'How do I book an appointment?',
