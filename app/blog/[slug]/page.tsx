@@ -316,9 +316,9 @@ const blogContent: Record<string, {
       <p><strong>Signature Pedicure ($50 regular / $70 gel):</strong> Deep callus care, sugar scrub, hydrating mask, hot towel wrap.</p>
       <p><strong>Hot Stone Pedicure ($65 regular / $85 gel):</strong> Full spa treatment plus tension-melting hot stone massage.</p>
       <p><strong>Aromatherapy Pedicure ($75 regular / $95 gel):</strong> Essential oil soak, stress-relieving massage, custom scent experience.</p>
-      <p><strong>CBD Wellness Pedicure ($75 regular / $95 gel):</strong> Organic CBD-infused soak, anti-inflammatory relief, deep relaxation.</p>
+      <p><strong>Hemp Wellness Pedicure ($75 regular / $95 gel):</strong> Organic hemp-infused soak, anti-inflammatory relief, deep relaxation.</p>
       <p><strong>Elorae Signature Pedicure ($110 regular / $130 gel):</strong> Our most indulgent — salt soak, organic oils, hot stones, paraffin.</p>
-      <p><strong>Elorae CBD Retreat ($125 regular / $145 gel):</strong> Ultimate therapeutic experience with CBD treatment throughout.</p>
+      <p><strong>Elorae Hemp Retreat ($125 regular / $145 gel):</strong> Ultimate therapeutic experience with Hemp treatment throughout.</p>
 
       <h2>Which Should You Choose?</h2>
       <p>Choose a <strong>basic pedicure</strong> if you:</p>
@@ -527,26 +527,26 @@ const blogContent: Record<string, {
   },
   'cbd-pedicure-pain-relief-benefits': {
     date: 'December 7, 2025',
-    title: 'CBD Pedicure: How It Helps with Pain Relief and Relaxation',
-    excerpt: 'CBD pedicures aren\'t just trendy — they actually help with inflammation and pain. We explain what CBD does (and doesn\'t do), who it\'s best for, and what makes our CBD pedicure different.',
+    title: 'Hemp Pedicure: How It Helps with Pain Relief and Relaxation',
+    excerpt: 'Hemp pedicures aren\'t just trendy — they actually help with inflammation and pain. We explain what Hemp does (and doesn\'t do), who it\'s best for, and what makes our Hemp pedicure different.',
     content: `
-      <p>CBD pedicures combine the benefits of traditional pedicure care with the therapeutic properties of CBD (cannabidiol). This innovative treatment offers pain relief, relaxation, and deep moisturization.</p>
+      <p>Hemp pedicures combine the benefits of traditional pedicure care with the therapeutic properties of Hemp (cannabidiol). This innovative treatment offers pain relief, relaxation, and deep moisturization.</p>
 
-      <h2>What Is a CBD Pedicure?</h2>
-      <p>A CBD pedicure incorporates CBD-infused products throughout the service. CBD oil, creams, and soaks are used to provide therapeutic benefits while you enjoy a luxurious pedicure experience. The CBD is derived from hemp and contains no THC, so it won't cause any psychoactive effects.</p>
+      <h2>What Is a Hemp Pedicure?</h2>
+      <p>A Hemp pedicure incorporates Hemp-infused products throughout the service. Hemp oil, creams, and soaks are used to provide therapeutic benefits while you enjoy a luxurious pedicure experience. It is derived from hemp and contains no THC, so it won't cause any psychoactive effects.</p>
 
-      <h2>How CBD Works</h2>
-      <p>CBD interacts with your body's endocannabinoid system, which helps regulate pain, inflammation, and stress responses. When applied topically, CBD:</p>
+      <h2>How Hemp Works</h2>
+      <p>Hemp interacts with your body's endocannabinoid system, which helps regulate pain, inflammation, and stress responses. When applied topically, Hemp:</p>
       <ul>
         <li>Reduces inflammation</li>
         <li>Alleviates pain and discomfort</li>
         <li>Promotes relaxation</li>
         <li>Moisturizes and soothes skin</li>
       </ul>
-      <p>The effects are localized to the area where CBD is applied, making it perfect for foot and leg treatments.</p>
+      <p>The effects are localized to the area where Hemp is applied, making it perfect for foot and leg treatments.</p>
 
       <h2>Pain Relief Benefits</h2>
-      <p>CBD pedicures are particularly effective for:</p>
+      <p>Hemp pedicures are particularly effective for:</p>
       <ul>
         <li><strong>Arthritis pain:</strong> Reduces inflammation in joints</li>
         <li><strong>Plantar fasciitis:</strong> Soothes heel and arch pain</li>
@@ -554,49 +554,49 @@ const blogContent: Record<string, {
         <li><strong>Chronic foot pain:</strong> Provides ongoing relief</li>
         <li><strong>Joint stiffness:</strong> Improves flexibility and mobility</li>
       </ul>
-      <p>Many clients report significant pain reduction after CBD pedicures, with effects lasting for days.</p>
+      <p>Many clients report significant pain reduction after Hemp pedicures, with effects lasting for days.</p>
 
       <h2>Anti-Inflammatory Properties</h2>
-      <p>CBD is a natural anti-inflammatory, making it ideal for:</p>
+      <p>Hemp is a natural anti-inflammatory, making it ideal for:</p>
       <ul>
         <li>Reducing swelling</li>
         <li>Easing inflammation from overuse</li>
         <li>Soothing irritated skin</li>
         <li>Promoting faster healing</li>
       </ul>
-      <p>This makes CBD pedicures especially beneficial for athletes, people who stand for long periods, or anyone dealing with foot inflammation.</p>
+      <p>This makes Hemp pedicures especially beneficial for athletes, people who stand for long periods, or anyone dealing with foot inflammation.</p>
 
       <h2>Stress Relief and Relaxation</h2>
-      <p>Beyond physical benefits, CBD pedicures promote deep relaxation:</p>
+      <p>Beyond physical benefits, Hemp pedicures promote deep relaxation:</p>
       <ul>
         <li>Reduces stress and anxiety</li>
         <li>Promotes calm and well-being</li>
         <li>Improves sleep quality</li>
         <li>Creates a sense of tranquility</li>
       </ul>
-      <p>The combination of CBD's calming effects and the relaxing pedicure experience creates the ultimate stress-relief treatment.</p>
+      <p>The combination of Hemp's calming effects and the relaxing pedicure experience creates the ultimate stress-relief treatment.</p>
 
-      <h2>What's Included in Our CBD Pedicures</h2>
-      <p>We offer two CBD pedicure options:</p>
-      <p><strong>CBD Wellness Pedicure ($75 regular / $95 gel):</strong></p>
+      <h2>What's Included in Our Hemp Pedicures</h2>
+      <p>We offer two Hemp pedicure options:</p>
+      <p><strong>Hemp Wellness Pedicure ($75 regular / $95 gel):</strong></p>
       <ul>
-        <li>CBD-infused foot soak</li>
+        <li>Hemp-infused foot soak</li>
         <li>Full spa pedicure service</li>
-        <li>CBD massage oil application</li>
+        <li>Hemp massage oil application</li>
         <li>Extended therapeutic massage</li>
         <li>Deep moisturization</li>
       </ul>
-      <p><strong>Elorae CBD Retreat ($125 regular / $145 gel):</strong></p>
+      <p><strong>Elorae Hemp Retreat ($125 regular / $145 gel):</strong></p>
       <ul>
-        <li>Everything in CBD Wellness Pedicure</li>
-        <li>Extended CBD treatment throughout</li>
-        <li>Hot stone massage with CBD oil</li>
-        <li>Paraffin treatment with CBD</li>
+        <li>Everything in Hemp Wellness Pedicure</li>
+        <li>Extended Hemp treatment throughout</li>
+        <li>Hot stone massage with Hemp oil</li>
+        <li>Paraffin treatment with Hemp</li>
         <li>Ultimate therapeutic experience</li>
       </ul>
 
-      <h2>Who Benefits Most from CBD Pedicures?</h2>
-      <p>CBD pedicures are ideal for:</p>
+      <h2>Who Benefits Most from Hemp Pedicures?</h2>
+      <p>Hemp pedicures are ideal for:</p>
       <ul>
         <li>People with chronic foot pain</li>
         <li>Athletes and active individuals</li>
@@ -606,8 +606,8 @@ const blogContent: Record<string, {
         <li>Those with inflammation or swelling</li>
       </ul>
 
-      <h2>Is CBD Safe?</h2>
-      <p>Yes, CBD is safe when used topically. Our CBD products are:</p>
+      <h2>Is Hemp Safe?</h2>
+      <p>Yes, Hemp is safe when used topically. Our Hemp products are:</p>
       <ul>
         <li>Derived from hemp (no THC)</li>
         <li>Third-party tested for quality</li>
@@ -616,8 +616,8 @@ const blogContent: Record<string, {
       </ul>
       <p>If you have concerns or allergies, please let us know before your service.</p>
 
-      <h2>How Often Should You Get a CBD Pedicure?</h2>
-      <p>For ongoing pain relief and benefits, we recommend CBD pedicures every 4-6 weeks. However, you can enjoy them more frequently if you're dealing with chronic pain or simply want regular stress relief and relaxation.</p>
+      <h2>How Often Should You Get a Hemp Pedicure?</h2>
+      <p>For ongoing pain relief and benefits, we recommend Hemp pedicures every 4-6 weeks. However, you can enjoy them more frequently if you're dealing with chronic pain or simply want regular stress relief and relaxation.</p>
     `,
   },
   'nail-shapes-guide-almond-coffin-stiletto': {

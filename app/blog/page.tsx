@@ -41,8 +41,8 @@ const blogPosts = [
   },
   {
     date: "December 7, 2025",
-    title: "CBD Pedicure: How It Helps with Pain Relief and Relaxation",
-    excerpt: "CBD pedicures aren't just trendy — they actually help with inflammation and pain. We explain what CBD does (and doesn't do), who it's best for, and what makes our CBD pedicure different.",
+    title: "Hemp Pedicure: How It Helps with Pain Relief and Relaxation",
+    excerpt: "Hemp pedicures aren't just trendy — they actually help with inflammation and pain. We explain what Hemp does (and doesn't do), who it's best for, and what makes our Hemp pedicure different.",
   },
   {
     date: "December 4, 2025",

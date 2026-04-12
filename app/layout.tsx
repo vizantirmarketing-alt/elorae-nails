@@ -14,7 +14,7 @@ const localBusinessJsonLd = {
   telephone: "+17026132115",
   email: "hello@eloraenails.com",
   description:
-    "Private appointment-only luxury nail studio in Las Vegas offering manicures, pedicures, nail enhancements, and CBD spa treatments.",
+    "Private appointment-only luxury nail studio in Las Vegas offering manicures, pedicures, nail enhancements, and Hemp spa treatments.",
   address: {
     "@type": "PostalAddress",
     streetAddress: "6035 S. Durango Dr",
@@ -73,7 +73,7 @@ const faqJsonLd = {
       name: "What services do you offer?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "We offer manicures, pedicures, nail enhancements, and CBD spa treatments in a private appointment-only setting.",
+        text: "We offer manicures, pedicures, nail enhancements, and Hemp spa treatments in a private appointment-only setting.",
       },
     },
     {
@@ -90,7 +90,7 @@ const faqJsonLd = {
 export const metadata: Metadata = {
   title: "Eloraé Nails | Private Luxury Nail Studio in Las Vegas",
   description:
-    "Eloraé Nails is a private appointment-only nail studio in Las Vegas offering luxury manicures, pedicures, nail enhancements, and CBD spa treatments in a clean, structured setting.",
+    "Eloraé Nails is a private appointment-only nail studio in Las Vegas offering luxury manicures, pedicures, nail enhancements, and Hemp spa treatments in a clean, structured setting.",
   alternates: {
     canonical: "https://www.eloraenails.com",
   },
@@ -117,7 +117,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Eloraé Nails | Private Luxury Nail Studio in Las Vegas",
     description:
-      "Eloraé Nails is a private appointment-only nail studio in Las Vegas offering luxury manicures, pedicures, nail enhancements, and CBD spa treatments in a clean, structured setting.",
+      "Eloraé Nails is a private appointment-only nail studio in Las Vegas offering luxury manicures, pedicures, nail enhancements, and Hemp spa treatments in a clean, structured setting.",
     images: ["https://www.eloraenails.com/og-image.png"],
   },
 };

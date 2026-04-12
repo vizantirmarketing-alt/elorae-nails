@@ -26,7 +26,7 @@ const faqs = [
   {
     question: 'What services do you offer?',
     answer:
-      'We offer manicures, pedicures, nail enhancements, and CBD spa treatments — all in a private, appointment-only setting.',
+      'We offer manicures, pedicures, nail enhancements, and Hemp spa treatments — all in a private, appointment-only setting.',
   },
   {
     question: 'Where are you located?',
