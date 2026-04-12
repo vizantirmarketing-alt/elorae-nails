@@ -787,6 +787,124 @@ const blogContent: Record<string, {
 <p>Book online or text us to discuss your bridal appointment.</p>
     `,
   },
+  'gel-manicure-last-longer-vegas-heat': {
+    date: 'April 10, 2026',
+    title: 'How to Make Your Gel Manicure Last Longer in Las Vegas Heat',
+    excerpt: 'Las Vegas heat and dry air are tough on gel manicures. Here is what actually works to keep your nails looking fresh longer in the desert.',
+    content: `
+<h2>Las Vegas Is Hard on Gel Manicures</h2>
+
+<p>The desert heat, dry air, and constant air conditioning cycling that defines Las Vegas living creates a uniquely challenging environment for gel manicures. Nails expand and contract with temperature changes, the dry air pulls moisture from the nail bed, and UV exposure from the intense desert sun can affect gel color over time.</p>
+
+<p>The good news: with the right application and aftercare, a gel manicure can last 3–4 weeks even in Las Vegas conditions. Here is what makes the difference.</p>
+
+<h2>Start With Proper Nail Prep</h2>
+
+<p>The most common reason gel lifts early is poor prep before application. The nail surface needs to be completely clean, dry, and free of any oils before gel is applied.</p>
+
+<p>At Eloraé Nails, every appointment includes thorough prep — cuticle care, nail shaping, and surface dehydration — before any product touches the nail. Skipping or rushing this step is the number one cause of early lifting, regardless of product quality.</p>
+
+<h2>Keep Your Cuticles and Nails Hydrated</h2>
+
+<p>This sounds counterintuitive — gel lifts when nails are oily, so why add moisture? The key is where you apply it.</p>
+
+<p>Cuticle oil applied to the skin around the nail, not on the gel surface itself, keeps the nail bed flexible and prevents the dehydration that causes the natural nail to contract and pull away from the gel. In Las Vegas's dry climate, applying cuticle oil daily is especially important.</p>
+
+<p>Look for cuticle oils with jojoba, vitamin E, or almond oil. Apply around the base and sides of the nail every evening.</p>
+
+<h2>Avoid Prolonged Hot Water Exposure</h2>
+
+<p>Long hot showers, hot tubs, and extended dish washing are the fastest ways to shorten a gel manicure. Hot water causes the nail to swell, which stresses the bond between the gel and the natural nail.</p>
+
+<p>Use gloves for dishes, keep showers reasonably short, and if you use Las Vegas hotel pools or hot tubs, know that chlorine and heat together are particularly hard on gel.</p>
+
+<h2>Protect Your Nails From Direct UV Exposure</h2>
+
+<p>Las Vegas has some of the highest UV index readings in the country. Prolonged direct sun exposure can fade gel color over time — particularly lighter pinks, nudes, and whites.</p>
+
+<p>Apply SPF to your hands when spending extended time outdoors. This protects both the gel color and the skin around your nails.</p>
+
+<h2>Be Careful With Your Hands</h2>
+
+<p>Gel is durable but not indestructible. Using your nails as tools — opening cans, scraping stickers, prying things open — puts stress on the free edge and can cause chipping or lifting.</p>
+
+<p>Use the pads of your fingers instead of your nail tips for everyday tasks. It becomes second nature quickly.</p>
+
+<h2>Come In for Fills Before They Lift</h2>
+
+<p>As your natural nail grows, a gap appears at the base of the gel. In dry climates like Las Vegas, moisture can get under this gap and cause the gel to lift further. Coming in for a fill at 2–3 weeks keeps everything sealed and extends the overall wear time.</p>
+
+<h2>Choose the Right Products</h2>
+
+<p>Not all gel products perform equally in desert conditions. At Eloraé Nails we use professional-grade products specifically selected for durability and flexibility — which matters more in a climate with significant temperature swings between scorching outdoor heat and heavily air-conditioned interiors.</p>
+
+<h2>Ready to Book?</h2>
+
+<p>A properly applied gel manicure in our private Las Vegas studio will last significantly longer than what you get at a rushed nail bar. Book online or text us to schedule your appointment.</p>
+    `,
+  },
+  'luxury-pedicure-las-vegas': {
+    date: 'April 10, 2026',
+    title: 'Luxury Pedicure in Las Vegas: What to Expect and Why It Is Worth It',
+    excerpt: 'Not all pedicures are created equal. Here is what separates a luxury pedicure from a basic one and what to look for when booking in Las Vegas.',
+    content: `
+<h2>What Makes a Pedicure Luxury</h2>
+
+<p>The word luxury gets used loosely in the nail industry. A true luxury pedicure is not just a longer soak or a fancier chair — it is a meaningfully different experience in terms of products, technique, time, and environment.</p>
+
+<p>Here is what actually separates a luxury pedicure from a standard one.</p>
+
+<h2>Premium Products That Do More</h2>
+
+<p>A standard pedicure uses basic polish, a generic scrub, and a simple lotion. A luxury pedicure uses professional-grade products with real active ingredients — sugar scrubs with natural exfoliants, masks with deep hydration compounds, essential oil blends, and treatment-grade massage gels.</p>
+
+<p>At Eloraé Nails, our pedicure menu includes treatments like our Cosmo Spa Pedicure — a 6-step treatment with 16 natural ingredients including callus softener, aromatherapy soak, and essential oil blend — and our Eloraé Luxury Pedicure, our most indulgent service featuring salt soak, organic oils, hot stones, and paraffin.</p>
+
+<h2>Time and Attention</h2>
+
+<p>A budget nail bar pedicure is designed to move quickly. A luxury pedicure is designed to be thorough. That means proper callus treatment, extended massage, careful shaping, and unhurried application.</p>
+
+<p>Rushing through a pedicure produces rushed results. In a private studio setting, your appointment gets the time it actually requires.</p>
+
+<h2>The Environment Matters</h2>
+
+<p>A crowded, noisy nail bar is a very different experience from a private studio. The environment affects everything — how relaxed you feel, how focused the technician can be, and how clean the space actually is.</p>
+
+<p>Eloraé Nails is an appointment-only private studio. Every appointment is yours — not shared with a waiting room of walk-ins.</p>
+
+<h2>Our Pedicure Menu</h2>
+
+<p><strong>Classic Pedicure:</strong> Essential care with foot soak, shaping, scrub, massage, and polish.</p>
+
+<p><strong>Signature Pedicure:</strong> Deep callus care, sugar scrub, hydrating mask, and hot towel wrap.</p>
+
+<p><strong>Hot Stone Pedicure:</strong> Tension-melting hot stone massage with full spa treatment.</p>
+
+<p><strong>Aromatherapy Pedicure:</strong> Essential oil soak, stress-relieving massage, custom scent experience.</p>
+
+<p><strong>Hemp Wellness Pedicure:</strong> Organic hemp-infused soak, anti-inflammatory relief, deep relaxation.</p>
+
+<p><strong>Cosmo Spa Pedicure:</strong> 16 natural ingredients, callus softening, aromatherapy soak with essential oil blend.</p>
+
+<p><strong>Eloraé Luxury Pedicure:</strong> Our most indulgent service — salt soak, organic oils, hot stones, and paraffin.</p>
+
+<p><strong>Eloraé Hemp Retreat:</strong> Ultimate therapeutic experience with hemp treatment throughout.</p>
+
+<h2>How to Choose the Right Pedicure</h2>
+
+<p>If you want relaxation and stress relief — the Hot Stone or Aromatherapy pedicure.</p>
+
+<p>If you want deep hydration and skin treatment — the Cosmo Spa or Eloraé Luxury Pedicure.</p>
+
+<p>If you want therapeutic benefits — the Hemp Wellness Pedicure or Eloraé Hemp Retreat.</p>
+
+<p>If you are not sure, text us before booking and we will help you choose based on what you are looking for.</p>
+
+<h2>Book Your Luxury Pedicure in Las Vegas</h2>
+
+<p>Eloraé Nails is a private appointment-only nail studio in Las Vegas at 6035 S. Durango Dr. Book online or text us to schedule.</p>
+    `,
+  },
 };
 
 export default function BlogPostPage({ params }: { params: { slug: string } }) {

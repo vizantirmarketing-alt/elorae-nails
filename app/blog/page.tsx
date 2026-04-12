@@ -55,6 +55,18 @@ const blogPosts = [
     title: "Bridal Nails Las Vegas: How to Choose the Perfect Look for Your Wedding Day",
     excerpt: "Your wedding nails should be as carefully chosen as your dress. Here is everything you need to know about booking bridal nails in Las Vegas.",
   },
+  {
+    slug: "gel-manicure-last-longer-vegas-heat",
+    date: "April 10, 2026",
+    title: "How to Make Your Gel Manicure Last Longer in Las Vegas Heat",
+    excerpt: "Las Vegas heat and dry air are tough on gel manicures. Here is what actually works to keep your nails looking fresh longer in the desert.",
+  },
+  {
+    slug: "luxury-pedicure-las-vegas",
+    date: "April 10, 2026",
+    title: "Luxury Pedicure in Las Vegas: What to Expect and Why It Is Worth It",
+    excerpt: "Not all pedicures are created equal. Here is what separates a luxury pedicure from a basic one and what to look for when booking in Las Vegas.",
+  },
 ];
 
 export default function BlogPage() {
