@@ -28,6 +28,9 @@ export default function About() {
           <p className="text-warm-gray mb-8">
             The studio operates by appointment only with a small licensed team and clear policies that respect both client and technician time.
           </p>
+          <p className="text-warm-gray mb-8">
+            We work with clients for everyday nail care, special occasions, and everything in between — bridal appointments, birthday celebrations, and Las Vegas event nails included.
+          </p>
         </div>
       </div>
     </section>
