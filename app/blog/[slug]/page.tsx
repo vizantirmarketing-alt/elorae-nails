@@ -737,6 +737,56 @@ const blogContent: Record<string, {
       </ul>
     `,
   },
+  'bridal-nails-las-vegas': {
+    date: 'April 10, 2026',
+    title: 'Bridal Nails Las Vegas: How to Choose the Perfect Look for Your Wedding Day',
+    excerpt: 'Your wedding nails should be as carefully chosen as your dress. Here is everything you need to know about booking bridal nails in Las Vegas.',
+    content: `
+<h2>Your Wedding Nails Deserve As Much Thought As Everything Else</h2>
+
+<p>Las Vegas is one of the most popular wedding destinations in the world. Whether you are having an intimate ceremony or a full celebration, your nails will be in every photo — on the ring, holding the bouquet, cutting the cake.</p>
+
+<p>Getting them right matters. Here is how to approach bridal nails in Las Vegas.</p>
+
+<h2>Book Early — Especially in Peak Season</h2>
+
+<p>Las Vegas wedding season peaks in spring and fall. If your wedding falls between March and May or September and November, private studios like Eloraé fill up weeks in advance for bridal appointments.</p>
+
+<p>Book at least 2–3 weeks ahead for a standard bridal appointment. If you want a trial run to test your chosen style before the big day — which we always recommend — book that 4–6 weeks out.</p>
+
+<h2>Classic Bridal Nail Styles That Photograph Beautifully</h2>
+
+<p><strong>Soft pink or nude gel:</strong> The most timeless bridal choice. Works with every dress, skin tone, and venue. Clean, elegant, and never distracting.</p>
+
+<p><strong>French tip:</strong> A classic for a reason. Modern French tips with thin, precise lines photograph especially well. Gel application ensures they last through the full wedding weekend.</p>
+
+<p><strong>Sheer white or milky white:</strong> Popular for destination and outdoor weddings. Soft and romantic without being stark.</p>
+
+<p><strong>Subtle nail art:</strong> A delicate floral, thin gold line, or single accent nail adds personality without overwhelming. Best kept minimal so the focus stays on the ring.</p>
+
+<h2>What Length and Shape Works Best for Weddings</h2>
+
+<p>Medium length is the most practical choice for a wedding — long enough to look elegant in photos, short enough to be comfortable through a full day of activities.</p>
+
+<p>For shape, oval and soft square are the most universally flattering and photograph well from every angle. Stiletto and extra long almond can be stunning but require more careful planning around the day's activities.</p>
+
+<h2>Gel vs Gel-X for Bridal Nails</h2>
+
+<p>If you want length without your natural nails, Gel-X soft gel extensions are ideal for brides. They look completely natural, photograph beautifully, and last 3–4 weeks — easily carrying you through the wedding, honeymoon, and beyond.</p>
+
+<p>Traditional gel on natural nails is the right choice if your nails are already the length and shape you want. Gel will keep them chip-free and glossy for the full wedding weekend.</p>
+
+<h2>Plan for a Trial Appointment</h2>
+
+<p>A bridal trial is not just for hair and makeup. Testing your nail look 2–3 weeks before the wedding lets you see exactly how the color, shape, and length photograph in real conditions — and make any adjustments without the pressure of the wedding day.</p>
+
+<h2>Book Your Bridal Appointment at Eloraé Nails</h2>
+
+<p>We work with Las Vegas brides to create nail looks that are elegant, long-lasting, and tailored to the wedding aesthetic. Private studio, appointment only, clean environment.</p>
+
+<p>Book online or text us to discuss your bridal appointment.</p>
+    `,
+  },
 };
 
 export default function BlogPostPage({ params }: { params: { slug: string } }) {

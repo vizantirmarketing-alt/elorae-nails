@@ -49,6 +49,12 @@ const blogPosts = [
     title: "Nail Shapes Explained: Almond, Coffin, Stiletto, and More",
     excerpt: "Almond, coffin, stiletto, squoval — nail shape matters more than you think. The right shape flatters your fingers and fits your lifestyle. Here's a breakdown of every popular shape and how to choose.",
   },
+  {
+    slug: "bridal-nails-las-vegas",
+    date: "April 10, 2026",
+    title: "Bridal Nails Las Vegas: How to Choose the Perfect Look for Your Wedding Day",
+    excerpt: "Your wedding nails should be as carefully chosen as your dress. Here is everything you need to know about booking bridal nails in Las Vegas.",
+  },
 ];
 
 export default function BlogPage() {
