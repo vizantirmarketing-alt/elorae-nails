@@ -67,6 +67,12 @@ const blogPosts = [
     title: "Luxury Pedicure in Las Vegas: What to Expect and Why It Is Worth It",
     excerpt: "Not all pedicures are created equal. Here is what separates a luxury pedicure from a basic one and what to look for when booking in Las Vegas.",
   },
+  {
+    slug: "nail-salon-las-vegas-how-to-choose",
+    date: "April 10, 2026",
+    title: "How to Choose a Nail Salon in Las Vegas",
+    excerpt: "Las Vegas has hundreds of nail salons. Here is how to tell the difference between a place that will do great work and one that will waste your time and money.",
+  },
 ];
 
 export default function BlogPage() {
