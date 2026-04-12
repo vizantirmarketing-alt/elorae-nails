@@ -1,100 +1,102 @@
-# Elorae Nails
+# Eloraé Nails
 
-Premium single-page website for a private nail studio. Built with Next.js 14, TypeScript, and Tailwind CSS.
+Private luxury nail studio website for Eloraé Nails in Las Vegas. Built by Vizantir Design Studio.
+
+**Live site:** https://www.eloraenails.com
+
+---
 
 ## Features
 
-- **Single-page design** with smooth scroll navigation
-- **Responsive** across all devices
-- **Optimized for solo/duo suite businesses**
-- Clean, premium aesthetic with warm color palette
-- Separate pages for Terms, FAQ, and Blog
+- Single-page design built for fast load times and mobile-first experience
+- GSAP animations with Lenis smooth scroll
+- Integrated booking via Booker
+- Google Maps embed for studio location
+- Google Analytics 4 and Microsoft Clarity for traffic and behavior tracking
+- LocalBusiness and FAQ structured data for rich search results
+- 100 SEO score, 100 Best Practices on PageSpeed (desktop)
 
-## Quick Start
+---
+
+## Tech Stack
+
+- **Framework:** Next.js (App Router)
+- **Language:** TypeScript
+- **Styling:** Tailwind CSS
+- **Animations:** GSAP, Lenis
+- **Booking:** Booker
+- **Hosting:** Vercel
+- **Analytics:** Google Analytics 4, Microsoft Clarity
+
+---
+
+## Getting Started
+
+### 1. Clone the repo
 
 ```bash
-# Install dependencies
-npm install
-
-# Run development server
-npm run dev
-
-# Build for production
-npm run build
-
-# Start production server
-npm start
+git clone https://github.com/vizantirmarketing-alt/elorae-nails.git
+cd elorae-nails
 ```
 
-Open [http://localhost:3000](http://localhost:3000) to view.
+### 2. Install dependencies
+
+```bash
+npm install
+```
+
+### 3. Set up environment variables
+
+Create a `.env.local` file in the project root:
+
+```env
+# Analytics
+NEXT_PUBLIC_GA_ID=your_ga4_measurement_id
+NEXT_PUBLIC_CLARITY_ID=your_clarity_id
+```
+
+### 4. Run the development server
+
+```bash
+npm run dev
+```
+
+Open http://localhost:3000 to view the site.
+
+---
 
 ## Project Structure
+app/                  # Next.js App Router pages and layout
+components/           # UI components (Hero, Services, Booking, Contact, etc.)
+src/components/       # Analytics components (MicrosoftClarity)
+public/               # Static assets, logos, images
+docs/                 # Internal documentation
 
-```
-├── app/
-│   ├── globals.css       # Global styles + Tailwind
-│   ├── layout.tsx        # Root layout
-│   ├── page.tsx          # Home page
-│   ├── terms/page.tsx    # Terms & Conditions
-│   ├── faq/page.tsx      # FAQ
-│   └── blog/page.tsx     # Blog
-├── components/
-│   ├── Navbar.tsx        # Navigation with scroll effect
-│   ├── Hero.tsx          # Hero section
-│   ├── About.tsx         # About section
-│   ├── Gallery.tsx       # Portfolio gallery
-│   ├── Services.tsx      # Services list
-│   ├── Booking.tsx       # Booking CTA
-│   ├── Contact.tsx       # Contact info
-│   ├── Footer.tsx        # Footer
-│   └── Icons.tsx         # SVG icons
-└── public/               # Static assets (add images here)
-```
+---
 
-## Customization
+## Key Components
 
-### Colors
+| Component | Description |
+|-----------|-------------|
+| `Hero` | Full-screen hero with booking CTA |
+| `About` | Studio standards and positioning |
+| `Services` | Service menu with pricing |
+| `Booking` | Booking policies and Booker integration |
+| `Gallery` | Work gallery with Instagram link |
+| `FAQ` | Accordion FAQ section |
+| `Contact` | Location, phone, email, Google Maps embed |
+| `Footer` | Links and studio branding |
 
-Edit `tailwind.config.ts` to update the color palette:
-
-```ts
-colors: {
-  cream: "#FAF7F4",
-  blush: "#E8DCD5",
-  mauve: "#C9B8B1",
-  rose: "#B89B94",
-  charcoal: "#2C2826",
-  "warm-gray": "#6B6361",
-  gold: "#C4A87C",
-}
-```
-
-### Images
-
-Replace placeholder gradients with actual images:
-
-1. Add images to `/public/` folder
-2. Use Next.js `Image` component in place of placeholder divs
-3. Gallery images should be square (1:1 ratio)
-4. About image should be portrait (4:5 ratio)
-
-### Content
-
-- Update services and pricing in `components/Services.tsx`
-- Edit contact info in `components/Contact.tsx`
-- Modify booking links in `components/Booking.tsx`
-- Update FAQ in `app/faq/page.tsx`
-- Update terms in `app/terms/page.tsx`
+---
 
 ## Deployment
 
-This project is ready for deployment on Vercel:
+Deployed automatically to Vercel on push to `main`. Environment variables must be configured in Vercel project settings.
 
-```bash
-npm install -g vercel
-vercel
-```
+---
 
-## License
+## Notes
 
-Private project for Vizantir / client use.
+- Built for Eloraé Nails by Vizantir Design Studio
+- Booking links point to Booker at go.booker.com
+- Do not commit `.env.local` to the repo
