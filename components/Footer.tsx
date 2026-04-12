@@ -39,7 +39,7 @@ export default function Footer() {
         </div>
 
         <p className="text-xs text-white/50">
-          © {new Date().getFullYear()} Elorae Nails | Developed by <a href="https://vizantir.com" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">Vizantir</a>
+          © {new Date().getFullYear()} Eloraé Nails | Developed by <a href="https://vizantir.com" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">Vizantir</a>
         </p>
       </div>
     </footer>

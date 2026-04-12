@@ -43,9 +43,9 @@ export default function Booking() {
             <p className="font-serif text-xl text-charcoal">24 hrs notice</p>
           </div>
           <div className="text-center">
-            <h4 className="text-[0.7rem] tracking-[0.15em] uppercase text-warm-gray mb-2 font-normal">
+            <p className="text-[0.7rem] tracking-[0.15em] uppercase text-warm-gray mb-2 font-normal">
               New Clients
-            </h4>
+            </p>
             <p className="font-serif text-xl text-charcoal">Always welcome</p>
           </div>
         </div>

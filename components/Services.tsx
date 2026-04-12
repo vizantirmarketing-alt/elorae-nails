@@ -57,7 +57,7 @@ const services = {
       gel: "$100",
     },
     {
-      name: "Luxury Pedicure",
+      name: "Eloraé Luxury Pedicure",
       description: "Our most indulgent — salt soak, organic oils, hot stones, paraffin",
       regular: "$110",
       gel: "$130",

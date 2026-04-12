@@ -72,7 +72,7 @@ export default function FAQPage() {
           <p className="text-warm-gray mb-8">We're happy to help! Reach out to us directly.</p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href="tel:+17025550123"
+              href="tel:+17026132115"
               className="btn"
             >
               Call Us

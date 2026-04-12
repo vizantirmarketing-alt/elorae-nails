@@ -722,7 +722,7 @@ const blogContent: Record<string, {
       <p>We offer shape changes as add-ons:</p>
       <ul>
         <li><strong>Oval / Round Shape:</strong> +$5</li>
-        <li><strong>Almond / Coffin / Ballerina:</strong> +$10</li>
+        <li><strong>Almond / Coffin / Ballerina Shape:</strong> +$10</li>
         <li><strong>Stiletto Shape:</strong> +$15</li>
       </ul>
       <p>Shape changes can be done during any nail service or as part of a fill.</p>
