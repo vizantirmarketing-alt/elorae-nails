@@ -119,7 +119,7 @@ const faqJsonLd = {
       name: "Do you accept walk-ins?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "No — we're appointment only. That helps us keep the experience calm and gives each client proper time.",
+        text: "No — we're appointment only. That keeps things calm and gives each client enough time.",
       },
     },
     {
