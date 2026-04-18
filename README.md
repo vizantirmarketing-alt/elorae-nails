@@ -9,8 +9,8 @@ Private luxury nail studio website for Eloraé Nails in Las Vegas. Built by Viza
 ## Features
 
 - Single-page design built for fast load times and mobile-first experience
-- GSAP animations with Lenis smooth scroll
-- Integrated booking via Square Appointments
+- Smooth scroll and refined motion throughout
+- Integrated online booking via Square Appointments
 - Google Maps embed for studio location
 - Google Analytics 4 and Microsoft Clarity for traffic and behavior tracking
 - LocalBusiness and FAQ structured data for rich search results
@@ -20,7 +20,7 @@ Private luxury nail studio website for Eloraé Nails in Las Vegas. Built by Viza
 
 ## Tech Stack
 
-- **Framework:** Next.js (App Router)
+- **Framework:** Next.js 16.x+ (App Router)
 - **Language:** TypeScript
 - **Styling:** Tailwind CSS
 - **Animations:** GSAP, Lenis
@@ -66,11 +66,14 @@ Open http://localhost:3000 to view the site.
 ---
 
 ## Project Structure
+
+```
 app/                  # Next.js App Router pages and layout
 components/           # UI components (Hero, Services, Booking, Contact, etc.)
 src/components/       # Analytics components (MicrosoftClarity)
 public/               # Static assets, logos, images
 docs/                 # Internal documentation
+```
 
 ---
 
@@ -97,6 +100,6 @@ Deployed automatically to Vercel on push to `main`. Environment variables must b
 
 ## Notes
 
-- Built for Eloraé Nails by Vizantir Design Studio
-- Booking links point to Square Appointments
+- Built by Vizantir Design Studio for Eloraé Nails
+- Booking CTAs link to Square Appointments
 - Do not commit `.env.local` to the repo
