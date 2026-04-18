@@ -72,7 +72,6 @@ app/                  # Next.js App Router pages and layout
 components/           # UI components (Hero, Services, Booking, Contact, etc.)
 src/components/       # Analytics components (MicrosoftClarity)
 public/               # Static assets, logos, images
-docs/                 # Internal documentation
 ```
 
 ---
