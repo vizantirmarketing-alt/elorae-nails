@@ -13,7 +13,7 @@ export default function Booking() {
         {/* Buttons */}
         <div className="flex justify-center gap-4 flex-wrap mb-16">
           <a 
-            href="https://go.booker.com/location/PinkSaltSalonandSpa" 
+            href="https://app.squareup.com/appointments/book/76x67b4ir98faf/S8DT74QG3VD0F/start" 
             target="_blank" 
             rel="noopener noreferrer"
             className="btn btn-primary"

@@ -20,7 +20,7 @@ export default function Hero() {
           Clean work, clear policies, and an appointment-only studio for clients who want a calm, private experience.
         </p>
         <a 
-          href="https://go.booker.com/location/PinkSaltSalonandSpa" 
+          href="https://app.squareup.com/appointments/book/76x67b4ir98faf/S8DT74QG3VD0F/start" 
           target="_blank" 
           rel="noopener noreferrer"
           className="btn btn-primary"

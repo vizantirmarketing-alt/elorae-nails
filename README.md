@@ -10,7 +10,7 @@ Private luxury nail studio website for Eloraé Nails in Las Vegas. Built by Viza
 
 - Single-page design built for fast load times and mobile-first experience
 - GSAP animations with Lenis smooth scroll
-- Integrated booking via Booker
+- Integrated booking via Square Appointments
 - Google Maps embed for studio location
 - Google Analytics 4 and Microsoft Clarity for traffic and behavior tracking
 - LocalBusiness and FAQ structured data for rich search results
@@ -24,7 +24,7 @@ Private luxury nail studio website for Eloraé Nails in Las Vegas. Built by Viza
 - **Language:** TypeScript
 - **Styling:** Tailwind CSS
 - **Animations:** GSAP, Lenis
-- **Booking:** Booker
+- **Booking:** Square Appointments
 - **Hosting:** Vercel
 - **Analytics:** Google Analytics 4, Microsoft Clarity
 
@@ -81,7 +81,7 @@ docs/                 # Internal documentation
 | `Hero` | Full-screen hero with booking CTA |
 | `About` | Studio standards and positioning |
 | `Services` | Service menu with pricing |
-| `Booking` | Booking policies and Booker integration |
+| `Booking` | Booking policies and Square Appointments integration |
 | `Gallery` | Work gallery with Instagram link |
 | `FAQ` | Accordion FAQ section |
 | `Contact` | Location, phone, email, Google Maps embed |
@@ -98,5 +98,5 @@ Deployed automatically to Vercel on push to `main`. Environment variables must b
 ## Notes
 
 - Built for Eloraé Nails by Vizantir Design Studio
-- Booking links point to Booker at go.booker.com
+- Booking links point to Square Appointments
 - Do not commit `.env.local` to the repo

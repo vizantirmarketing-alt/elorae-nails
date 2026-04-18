@@ -30,7 +30,7 @@ export default function Navbar() {
     { href: '#about', label: 'About' },
     { href: '#gallery', label: 'Gallery' },
     { href: '#services', label: 'Services' },
-    { href: 'https://go.booker.com/location/PinkSaltSalonandSpa', label: 'Book', external: true },
+    { href: 'https://app.squareup.com/appointments/book/76x67b4ir98faf/S8DT74QG3VD0F/start', label: 'Book', external: true },
   ];
 
   const handleLinkClick = () => {
