@@ -16,6 +16,7 @@ const localBusinessJsonLd = {
   email: "hello@eloraenails.com",
   description:
     "Private appointment-only luxury nail studio in Las Vegas offering manicures, pedicures, nail enhancements, and hemp-infused spa treatments.",
+  image: "https://www.eloraenails.com/og-image.png",
   address: {
     "@type": "PostalAddress",
     streetAddress: "6035 S. Durango Dr",

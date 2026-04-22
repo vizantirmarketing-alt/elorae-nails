@@ -109,7 +109,7 @@ export default function Navbar() {
               <img 
                 src="/logos/elorae-icon.svg" 
                 alt="Eloraé" 
-                className="h-6 w-auto"
+                className="h-10 w-auto"
               />
             </a>
 
