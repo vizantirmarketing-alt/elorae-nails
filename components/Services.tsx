@@ -2,19 +2,22 @@ const services = {
   manicures: [
     {
       name: "Classic Manicure",
-      description: "Nail shaping, cuticle care, relaxing hand massage, polish of choice",
+      description:
+        "Nail shaping, cuticle care, hand massage, and polish of choice.",
       regular: "$30",
       gel: "$45",
     },
     {
       name: "Signature Manicure",
-      description: "Elevated care with sugar scrub, hydrating mask, hot towel wrap",
+      description:
+        "The Classic with a sugar scrub, hydrating mask, and hot towel wrap.",
       regular: "$45",
       gel: "$65",
     },
     {
       name: "Luxury Manicure",
-      description: "Premium salt scrub, extended massage, warm paraffin treatment",
+      description:
+        "Our most considered hand treatment. Salt scrub, extended massage, and warm paraffin.",
       regular: "$65",
       gel: "$80",
     },
@@ -22,49 +25,57 @@ const services = {
   pedicures: [
     {
       name: "Classic Pedicure",
-      description: "Essential care with foot soak, shaping, scrub, massage, polish",
+      description:
+        "Foot soak, shaping, scrub, massage, and polish.",
       regular: "$40",
       gel: "$60",
     },
     {
       name: "Signature Pedicure",
-      description: "Deep callus care, sugar scrub, hydrating mask, hot towel wrap",
+      description:
+        "The Classic, deeper. Callus care, sugar scrub, hydrating mask, hot towel wrap.",
       regular: "$50",
       gel: "$70",
     },
     {
       name: "Hot Stone Pedicure",
-      description: "Tension-melting hot stone massage with full spa treatment",
+      description:
+        "Hot stone massage paired with our full spa treatment.",
       regular: "$65",
       gel: "$85",
     },
     {
       name: "Aromatherapy Pedicure",
-      description: "Essential oil soak, stress-relieving massage, custom scent experience",
+      description:
+        "Essential oil soak and stress-relieving massage, built around the scent you choose.",
       regular: "$75",
       gel: "$95",
     },
     {
       name: "Hemp Wellness Pedicure",
-      description: "Organic hemp-infused soak, anti-inflammatory relief, deep relaxation",
+      description:
+        "Organic hemp soak with anti-inflammatory relief and deep relaxation.",
       regular: "$75",
       gel: "$95",
     },
     {
       name: "Cosmo Spa Pedicure",
-      description: "16 natural ingredients, callus softening, aromatherapy soak with essential oil blend",
+      description:
+        "A six-step ritual featuring sixteen natural ingredients, callus softening, and an aromatherapy soak.",
       regular: "$80",
       gel: "$100",
     },
     {
       name: "Eloraé Luxury Pedicure",
-      description: "Our most indulgent — salt soak, organic oils, hot stones, paraffin",
+      description:
+        "The house signature. Salt soak, organic oils, hot stones, and warm paraffin.",
       regular: "$110",
       gel: "$130",
     },
     {
       name: "Elorae Hemp Retreat",
-      description: "Ultimate therapeutic experience with Hemp treatment throughout",
+      description:
+        "Our deepest therapeutic session. Hemp infused from soak to finish.",
       regular: "$125",
       gel: "$145",
     },

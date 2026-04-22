@@ -17,7 +17,7 @@ export default function About() {
             An Appointment-Only Studio Built on Standards
           </h2>
           <p className="text-charcoal text-lg mb-5">
-            Eloraé Nails is a private nail studio in Las Vegas. I keep things clean, consistent, and calm from start to finish.
+            Eloraé Nails is a private nail studio in Las Vegas. We keep things clean, consistent, and calm from start to finish.
           </p>
           <p className="text-warm-gray mb-5">
             Every appointment follows the same process, from prep to finish, so your nails look clean and hold up well. We sanitize tools between every client, keep the space clean, and keep things calm in the studio.
@@ -27,9 +27,6 @@ export default function About() {
           </p>
           <p className="text-warm-gray mb-8">
             We're appointment only, with a small licensed team and clear policies so things run smoothly for everyone.
-          </p>
-          <p className="text-warm-gray mb-8">
-            We do everyday nails, bridal sets, birthday nails, and event nails too.
           </p>
         </div>
       </div>
