@@ -2,18 +2,18 @@ import { PhoneIcon, MessageIcon, MailIcon, InstagramIcon, TikTokIcon } from "./I
 
 export default function Contact() {
   return (
-    <section id="contact" className="pt-28 pb-8 px-8 lg:px-16 bg-charcoal text-cream">
+    <section id="contact" className="pt-20 pb-8 px-8 lg:px-16 bg-charcoal text-cream">
       <div className="max-w-4xl mx-auto text-center">
         <p className="section-label text-rose">Contact</p>
         <h2 className="font-serif text-4xl sm:text-5xl font-light mb-4">
           Contact
         </h2>
-        <p className="text-mauve mb-12">
+        <p className="text-mauve mb-10">
           Text is the fastest way to reach us. If you need to change a booking, include your name and appointment time.
         </p>
 
         {/* Contact Methods */}
-        <div className="flex justify-center gap-6 flex-wrap mb-16">
+        <div className="flex justify-center gap-6 flex-wrap mb-12">
           <a
             href="tel:+17026132115"
             className="flex items-center gap-3 px-6 py-4 border border-warm-gray text-cream text-sm tracking-wide transition-all duration-300 hover:border-gold hover:bg-gold/10"
@@ -38,7 +38,7 @@ export default function Contact() {
         </div>
 
         {/* Location */}
-        <div className="pt-12 border-t border-white/10">
+        <div className="pt-10 border-t border-white/10">
           <p className="text-[0.7rem] tracking-[0.2em] uppercase text-mauve mb-4 font-normal">
             Studio Location
           </p>
@@ -57,7 +57,7 @@ export default function Contact() {
         </div>
 
         {/* Map */}
-        <div className="w-full max-w-2xl mx-auto mt-8 mb-8">
+        <div className="w-full max-w-2xl mx-auto mt-6 mb-6">
           <a 
             href="https://www.google.com/maps/search/?api=1&query=6035+S+Durango+Dr+Las+Vegas+NV+89113"
             target="_blank"
@@ -80,7 +80,7 @@ export default function Contact() {
         </div>
 
         {/* Social */}
-        <div className="flex justify-center gap-4 mt-12">
+        <div className="flex justify-center gap-4 mt-8">
           <a
             href="https://instagram.com/eloraenails"
             target="_blank"
