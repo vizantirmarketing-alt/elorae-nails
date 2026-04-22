@@ -1,3 +1,14 @@
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Blog | Eloraé Nails",
+  description:
+    "Nail care tips, trends, and updates from Eloraé Nails, a private luxury nail studio in Las Vegas.",
+  alternates: {
+    canonical: "https://www.eloraenails.com/blog",
+  },
+};
+
 const blogPosts = [
   {
     date: "December 30, 2025",

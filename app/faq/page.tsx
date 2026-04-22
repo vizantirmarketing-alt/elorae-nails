@@ -1,3 +1,69 @@
+import type { Metadata } from "next";
+
+const faqJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: [
+    {
+      "@type": "Question",
+      name: "Do you accept walk-ins?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "No — we're appointment only. That keeps things calm and gives each client enough time.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "How do I book an appointment?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "You can book through the link on this site, and yes, we do take new clients.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "What is your cancellation policy?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "We ask for 24 hours' notice for cancellations. Late cancellations and no-shows may lose the deposit.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "Do you require a deposit?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Yes, we take a deposit to hold your appointment, and it goes toward your total.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "What services do you offer?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "We offer manicures, pedicures, nail enhancements, and hemp spa treatments by appointment.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "Where are you located?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "We are located at 6035 S. Durango Dr, Las Vegas, NV 89113.",
+      },
+    },
+  ],
+};
+
+export const metadata: Metadata = {
+  title: "FAQ | Eloraé Nails",
+  description:
+    "Frequently asked questions about booking, policies, and services at Eloraé Nails — a private luxury nail studio in Las Vegas.",
+  alternates: {
+    canonical: "https://www.eloraenails.com/faq",
+  },
+};
+
 const faqs = [
   {
     question: "What is the difference between gel nails and acrylic nails?",
@@ -40,6 +106,12 @@ const faqs = [
 export default function FAQPage() {
   return (
     <main className="bg-cream min-h-screen pt-32 pb-20">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(faqJsonLd),
+        }}
+      />
       <div className="max-w-3xl mx-auto px-8">
         {/* Header */}
         <div className="text-center mb-16">

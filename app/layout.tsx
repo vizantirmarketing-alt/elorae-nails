@@ -111,61 +111,6 @@ const localBusinessJsonLd = {
   },
 };
 
-const faqJsonLd = {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  mainEntity: [
-    {
-      "@type": "Question",
-      name: "Do you accept walk-ins?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "No — we're appointment only. That keeps things calm and gives each client enough time.",
-      },
-    },
-    {
-      "@type": "Question",
-      name: "How do I book an appointment?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "You can book through the link on this site, and yes, we do take new clients.",
-      },
-    },
-    {
-      "@type": "Question",
-      name: "What is your cancellation policy?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "We ask for 24 hours' notice for cancellations. Late cancellations and no-shows may lose the deposit.",
-      },
-    },
-    {
-      "@type": "Question",
-      name: "Do you require a deposit?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "Yes, we take a deposit to hold your appointment, and it goes toward your total.",
-      },
-    },
-    {
-      "@type": "Question",
-      name: "What services do you offer?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "We offer manicures, pedicures, nail enhancements, and hemp spa treatments by appointment.",
-      },
-    },
-    {
-      "@type": "Question",
-      name: "Where are you located?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "We are located at 6035 S. Durango Dr, Las Vegas, NV 89113.",
-      },
-    },
-  ],
-};
-
 export const metadata: Metadata = {
   title: "Eloraé Nails | Private Luxury Nail Studio in Las Vegas",
   description:
@@ -178,8 +123,9 @@ export const metadata: Metadata = {
     apple: "/logos/elorae-icon.svg",
   },
   openGraph: {
-    title: "Eloraé Nails",
-    description: "Luxury Nail Art Studio · Las Vegas",
+    title: "Eloraé Nails | Private Luxury Nail Studio in Las Vegas",
+    description:
+      "Eloraé Nails is a private appointment-only nail studio in Las Vegas offering luxury manicures, pedicures, nail enhancements, and hemp-infused spa treatments in a clean, structured setting.",
     url: "https://www.eloraenails.com",
     siteName: "Eloraé Nails",
     images: [
@@ -213,12 +159,6 @@ export default function RootLayout({
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: JSON.stringify(localBusinessJsonLd),
-          }}
-        />
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify(faqJsonLd),
           }}
         />
       </head>

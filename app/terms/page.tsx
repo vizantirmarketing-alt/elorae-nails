@@ -1,3 +1,18 @@
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Terms & Conditions | Eloraé Nails",
+  description:
+    "Terms and conditions for Eloraé Nails — a private luxury nail studio in Las Vegas.",
+  alternates: {
+    canonical: "https://www.eloraenails.com/terms",
+  },
+  robots: {
+    index: false,
+    follow: true,
+  },
+};
+
 export default function Terms() {
   return (
     <main className="pt-32 pb-20 px-8 lg:px-16 min-h-screen">

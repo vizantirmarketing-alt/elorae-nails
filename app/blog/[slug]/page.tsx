@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 
@@ -1008,6 +1009,51 @@ const blogContent: Record<string, {
     `,
   },
 };
+
+const truncateForMeta = (text: string, maxLength = 155) => {
+  if (text.length <= maxLength) return text;
+  return `${text.slice(0, maxLength - 1).trimEnd()}…`;
+};
+
+export async function generateMetadata({
+  params,
+}: {
+  params: { slug: string };
+}): Promise<Metadata> {
+  const post = blogContent[params.slug];
+
+  if (!post) {
+    return {
+      title: "Blog | Eloraé Nails",
+      description:
+        "Nail care tips, trends, and updates from Eloraé Nails, a private luxury nail studio in Las Vegas.",
+      alternates: {
+        canonical: `https://www.eloraenails.com/blog/${params.slug}`,
+      },
+      openGraph: {
+        title: "Blog | Eloraé Nails",
+        description:
+          "Nail care tips, trends, and updates from Eloraé Nails, a private luxury nail studio in Las Vegas.",
+        type: "article",
+      },
+    };
+  }
+
+  const description = truncateForMeta(post.excerpt);
+
+  return {
+    title: `${post.title} | Eloraé Nails`,
+    description,
+    alternates: {
+      canonical: `https://www.eloraenails.com/blog/${params.slug}`,
+    },
+    openGraph: {
+      title: post.title,
+      description,
+      type: "article",
+    },
+  };
+}
 
 export default function BlogPostPage({ params }: { params: { slug: string } }) {
   const post = blogContent[params.slug];
