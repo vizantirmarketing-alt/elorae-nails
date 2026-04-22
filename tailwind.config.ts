@@ -18,8 +18,8 @@ const config: Config = {
         gold: "#C4A87C",
       },
       fontFamily: {
-        serif: ["Cormorant Garamond", "serif"],
-        sans: ["Montserrat", "sans-serif"],
+        serif: ["var(--font-serif)", "serif"],
+        sans: ["var(--font-sans)", "sans-serif"],
       },
     },
   },

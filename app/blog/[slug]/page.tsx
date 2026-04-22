@@ -1042,11 +1042,8 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
 
           {/* Article Content */}
           <div
-            className="prose prose-lg max-w-none text-warm-gray leading-relaxed"
+            className="prose prose-lg max-w-none font-sans text-warm-gray leading-relaxed"
             dangerouslySetInnerHTML={{ __html: post.content }}
-            style={{
-              fontFamily: 'Montserrat, sans-serif',
-            }}
           />
 
           {/* Related Posts */}

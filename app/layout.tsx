@@ -1,10 +1,10 @@
 import type { Metadata } from "next";
 import Script from "next/script";
 import "./globals.css";
+import { fontSans, fontSerif } from "@/app/fonts";
 import LenisProvider from "@/components/LenisProvider";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
-import MicrosoftClarity from "@/src/components/MicrosoftClarity";
 
 const localBusinessJsonLd = {
   "@context": "https://schema.org",
@@ -206,7 +206,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className={`${fontSans.variable} ${fontSerif.variable}`}>
       <head>
         <script
           type="application/ld+json"
@@ -224,11 +224,11 @@ export default function RootLayout({
       <body className="bg-cream text-charcoal leading-relaxed">
         <Script
           src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GA_ID}`}
-          strategy="lazyOnload"
+          strategy="afterInteractive"
         />
         <Script
           id="google-analytics"
-          strategy="lazyOnload"
+          strategy="afterInteractive"
           dangerouslySetInnerHTML={{
             __html: `
       window.dataLayer = window.dataLayer || [];
@@ -238,7 +238,6 @@ export default function RootLayout({
     `,
           }}
         />
-        <MicrosoftClarity />
         <LenisProvider>
           <Navbar />
           {children}

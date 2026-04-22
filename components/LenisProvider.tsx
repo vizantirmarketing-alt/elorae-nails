@@ -1,8 +1,6 @@
 "use client";
 
 import { useEffect } from "react";
-import Lenis from "lenis";
-import { gsap } from "@/app/lib/gsap";
 
 export default function LenisProvider({
   children,
@@ -10,29 +8,42 @@ export default function LenisProvider({
   children: React.ReactNode;
 }) {
   useEffect(() => {
-    const lenis = new Lenis({
-      duration: 1.2,
-      easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
-      orientation: "vertical",
-      smoothWheel: true,
-    });
+    let cancelled = false;
+    let teardown: (() => void) | undefined;
 
-    // Connect Lenis to GSAP ticker for ScrollTrigger sync
-    gsap.ticker.add((time) => {
-      lenis.raf(time * 1000);
-    });
+    void Promise.all([import("lenis"), import("@/app/lib/gsap")]).then(
+      ([lenisMod, gsapMod]) => {
+        if (cancelled) return;
 
-    gsap.ticker.lagSmoothing(0);
+        const Lenis = lenisMod.default;
+        const { gsap } = gsapMod;
 
-    // Cleanup
+        const lenis = new Lenis({
+          duration: 1.2,
+          easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
+          orientation: "vertical",
+          smoothWheel: true,
+        });
+
+        const tickerCb = (time: number) => {
+          lenis.raf(time * 1000);
+        };
+
+        gsap.ticker.add(tickerCb);
+        gsap.ticker.lagSmoothing(0);
+
+        teardown = () => {
+          gsap.ticker.remove(tickerCb);
+          lenis.destroy();
+        };
+      }
+    );
+
     return () => {
-      gsap.ticker.remove((time) => {
-        lenis.raf(time * 1000);
-      });
-      lenis.destroy();
+      cancelled = true;
+      teardown?.();
     };
   }, []);
 
   return <>{children}</>;
 }
-
