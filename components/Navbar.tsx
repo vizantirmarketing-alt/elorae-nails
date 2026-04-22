@@ -132,7 +132,7 @@ export default function Navbar() {
 
       {/* Full Screen Mobile Menu */}
       <div
-        className={`fixed inset-0 z-[100] bg-cream transition-all duration-500 ease-out ${
+        className={`fixed inset-0 z-[100] bg-cream transition-opacity duration-200 ease-out ${
           isMenuOpen
             ? 'opacity-100 pointer-events-auto'
             : 'opacity-0 pointer-events-none'
