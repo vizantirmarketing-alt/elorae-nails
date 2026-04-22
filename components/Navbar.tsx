@@ -54,7 +54,7 @@ export default function Navbar() {
             alt="Eloraé" 
             width={160}
             height={64}
-            className="h-16 w-auto"
+            className="h-10 w-auto"
           />
         </a>
 

@@ -17,7 +17,7 @@ const services = {
     {
       name: "Luxury Manicure",
       description:
-        "Our most considered hand treatment. Salt scrub, extended massage, and warm paraffin.",
+        "A longer service. Salt scrub, extended massage, and warm paraffin.",
       regular: "$65",
       gel: "$80",
     },
@@ -33,49 +33,49 @@ const services = {
     {
       name: "Signature Pedicure",
       description:
-        "The Classic, deeper. Callus care, sugar scrub, hydrating mask, hot towel wrap.",
+        "The Classic with callus care, sugar scrub, hydrating mask, and hot towel wrap.",
       regular: "$50",
       gel: "$70",
     },
     {
       name: "Hot Stone Pedicure",
       description:
-        "Hot stone massage paired with our full spa treatment.",
+        "Full spa pedicure with hot stone massage.",
       regular: "$65",
       gel: "$85",
     },
     {
       name: "Aromatherapy Pedicure",
       description:
-        "Essential oil soak and stress-relieving massage, built around the scent you choose.",
+        "Essential oil soak and massage with the scent you choose.",
       regular: "$75",
       gel: "$95",
     },
     {
       name: "Hemp Wellness Pedicure",
       description:
-        "Organic hemp soak with anti-inflammatory relief and deep relaxation.",
+        "Organic hemp soak for tired, tense, or inflamed feet.",
       regular: "$75",
       gel: "$95",
     },
     {
       name: "Cosmo Spa Pedicure",
       description:
-        "A six-step ritual featuring sixteen natural ingredients, callus softening, and an aromatherapy soak.",
+        "A longer pedicure using sixteen natural ingredients across six steps.",
       regular: "$80",
       gel: "$100",
     },
     {
       name: "Eloraé Luxury Pedicure",
       description:
-        "The house signature. Salt soak, organic oils, hot stones, and warm paraffin.",
+        "The longest service on the menu. Salt soak, organic oils, hot stones, and paraffin.",
       regular: "$110",
       gel: "$130",
     },
     {
       name: "Elorae Hemp Retreat",
       description:
-        "Our deepest therapeutic session. Hemp infused from soak to finish.",
+        "Hemp used throughout — from the soak through the finish.",
       regular: "$125",
       gel: "$145",
     },
