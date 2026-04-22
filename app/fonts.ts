@@ -10,7 +10,7 @@ export const fontSans = Montserrat({
 
 export const fontSerif = Cormorant_Garamond({
   subsets: ["latin"],
-  weight: ["300", "400", "500", "600"],
+  weight: ["300"],
   style: ["normal", "italic"],
   display: "swap",
   variable: "--font-serif",
