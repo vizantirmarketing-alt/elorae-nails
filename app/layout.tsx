@@ -6,6 +6,7 @@ import LenisProvider from "@/components/LenisProvider";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import MicrosoftClarity from "@/src/components/MicrosoftClarity";
+import { Analytics } from "@vercel/analytics/next";
 
 const localBusinessJsonLd = {
   "@context": "https://schema.org",
@@ -186,6 +187,7 @@ export default function RootLayout({
           {children}
           <Footer />
         </LenisProvider>
+        <Analytics />
       </body>
     </html>
   );
