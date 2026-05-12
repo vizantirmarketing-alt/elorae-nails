@@ -6,6 +6,31 @@ import LenisProvider from "@/components/LenisProvider";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { Analytics } from "@vercel/analytics/next";
+import { services, categories, schemaOfferPriceUsd, serviceCanonicalUrl } from "@/lib/services";
+
+const hasOfferCatalog = {
+  "@type": "OfferCatalog",
+  name: "Nail Services",
+  itemListElement: categories.map((category) => ({
+    "@type": "OfferCatalog",
+    name: category.title,
+    itemListElement: services
+      .filter((s) => s.category === category.slug)
+      .map((service) => ({
+        "@type": "Offer",
+        price: String(schemaOfferPriceUsd(service)),
+        priceCurrency: "USD",
+        url: serviceCanonicalUrl(category.routeSegment, service.slug),
+        itemOffered: {
+          "@type": "Service",
+          name: service.name,
+          ...(service.description !== undefined
+            ? { description: service.description }
+            : {}),
+        },
+      })),
+  })),
+};
 
 const localBusinessJsonLd = {
   "@context": "https://schema.org",
@@ -32,84 +57,7 @@ const localBusinessJsonLd = {
   },
   priceRange: "$$$",
   sameAs: ["https://www.instagram.com/eloraenails"],
-  hasOfferCatalog: {
-    "@type": "OfferCatalog",
-    name: "Nail Services",
-    itemListElement: [
-      {
-        "@type": "Offer",
-        itemOffered: {
-          "@type": "Service",
-          name: "Gel Manicure",
-          description:
-            "Professional gel manicure with long-lasting color and shine.",
-        },
-      },
-      {
-        "@type": "Offer",
-        itemOffered: {
-          "@type": "Service",
-          name: "Luxury Pedicure",
-          description:
-            "Premium pedicure with salt soak, organic oils, hot stones, and paraffin treatment.",
-        },
-      },
-      {
-        "@type": "Offer",
-        itemOffered: {
-          "@type": "Service",
-          name: "Gel-X Nail Extensions",
-          description:
-            "Soft gel nail extensions for natural-looking length and strength.",
-        },
-      },
-      {
-        "@type": "Offer",
-        itemOffered: {
-          "@type": "Service",
-          name: "Acrylic Nails",
-          description:
-            "Full set acrylic nails with durable, long-lasting results.",
-        },
-      },
-      {
-        "@type": "Offer",
-        itemOffered: {
-          "@type": "Service",
-          name: "Nail Art",
-          description:
-            "Custom nail art designs from minimalist accents to detailed hand-painted looks.",
-        },
-      },
-      {
-        "@type": "Offer",
-        itemOffered: {
-          "@type": "Service",
-          name: "Hemp Wellness Pedicure",
-          description:
-            "Organic hemp-infused pedicure with anti-inflammatory relief and deep relaxation.",
-        },
-      },
-      {
-        "@type": "Offer",
-        itemOffered: {
-          "@type": "Service",
-          name: "Hot Stone Pedicure",
-          description:
-            "Tension-melting hot stone massage with full spa pedicure treatment.",
-        },
-      },
-      {
-        "@type": "Offer",
-        itemOffered: {
-          "@type": "Service",
-          name: "Cosmo Spa Pedicure",
-          description:
-            "6-step spa pedicure with 16 natural ingredients, callus softening, and aromatherapy soak.",
-        },
-      },
-    ],
-  },
+  hasOfferCatalog,
 };
 
 export const metadata: Metadata = {

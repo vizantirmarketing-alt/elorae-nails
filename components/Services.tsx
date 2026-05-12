@@ -1,118 +1,38 @@
-const services = {
-  manicures: [
-    {
-      name: "Classic Manicure",
-      description:
-        "Nail shaping, cuticle care, hand massage, and polish of choice.",
-      regular: "$30",
-      gel: "$45",
-    },
-    {
-      name: "Signature Manicure",
-      description:
-        "The Classic with a sugar scrub, hydrating mask, and hot towel wrap.",
-      regular: "$45",
-      gel: "$65",
-    },
-    {
-      name: "Luxury Manicure",
-      description:
-        "A longer service. Salt scrub, extended massage, and warm paraffin.",
-      regular: "$65",
-      gel: "$80",
-    },
-  ],
-  pedicures: [
-    {
-      name: "Classic Pedicure",
-      description:
-        "Foot soak, shaping, scrub, massage, and polish.",
-      regular: "$40",
-      gel: "$60",
-    },
-    {
-      name: "Signature Pedicure",
-      description:
-        "The Classic with callus care, sugar scrub, hydrating mask, and hot towel wrap.",
-      regular: "$50",
-      gel: "$70",
-    },
-    {
-      name: "Hot Stone Pedicure",
-      description:
-        "Full spa pedicure with hot stone massage.",
-      regular: "$65",
-      gel: "$85",
-    },
-    {
-      name: "Aromatherapy Pedicure",
-      description:
-        "Essential oil soak and massage with the scent you choose.",
-      regular: "$75",
-      gel: "$95",
-    },
-    {
-      name: "Hemp Wellness Pedicure",
-      description:
-        "Organic hemp soak for tired, tense, or inflamed feet.",
-      regular: "$75",
-      gel: "$95",
-    },
-    {
-      name: "Cosmo Spa Pedicure",
-      description:
-        "A longer pedicure using sixteen natural ingredients across six steps.",
-      regular: "$80",
-      gel: "$100",
-    },
-    {
-      name: "Eloraé Luxury Pedicure",
-      description:
-        "The longest service on the menu. Salt soak, organic oils, hot stones, and paraffin.",
-      regular: "$110",
-      gel: "$130",
-    },
-    {
-      name: "Elorae Hemp Retreat",
-      description:
-        "Hemp used throughout — from the soak through the finish.",
-      regular: "$125",
-      gel: "$145",
-    },
-  ],
-  enhancements: [
-    { name: "Acrylic Full Set", price: "$55", gel: "$75" },
-    { name: "Acrylic Overlay", price: "$50", gel: "$70" },
-    { name: "Acrylic Fill", price: "$35", gel: "$55" },
-    { name: "Hard Gel Full Set", price: "$80", gel: null },
-    { name: "Hard Gel Overlay", price: "$70", gel: null },
-    { name: "Hard Gel Fill", price: "$60", gel: null },
-    { name: "Soft Gel Extensions (Short)", price: "$80", gel: null },
-    { name: "Soft Gel Extensions (Medium)", price: "$85", gel: null },
-    { name: "Soft Gel Extensions (Long)", price: "$90", gel: null },
-  ],
-  extras: [
-    { name: "Medium Length", price: "+$10" },
-    { name: "Long Length", price: "+$15" },
-    { name: "Extra Long Length", price: "+$20" },
-    { name: "Oval / Round Shape", price: "+$5" },
-    { name: "Almond / Coffin / Ballerina Shape", price: "+$10" },
-    { name: "Stiletto Shape", price: "+$15" },
-    { name: "Callus Treatment", price: "+$10" },
-    { name: "Nail Repair", price: "+$5" },
-    { name: "Paraffin Hands", price: "+$15" },
-    { name: "Paraffin Feet", price: "+$20" },
-    { name: "Extended Massage (10 min)", price: "+$10" },
-  ],
-  soakOff: [
-    { name: "Gel / Dip Removal (with service)", price: "$10" },
-    { name: "Gel / Dip Removal (standalone)", price: "$15" },
-    { name: "Acrylic / Hard Gel / Extensions (with service)", price: "$15" },
-    { name: "Acrylic / Hard Gel / Extensions (standalone)", price: "$25" },
-  ],
-};
+import Link from "next/link";
+import {
+  categories,
+  categoryPagePath,
+  getServicesByCategory,
+} from "@/lib/services";
+
+const extras = [
+  { name: "Medium Length", price: "+$10" },
+  { name: "Long Length", price: "+$15" },
+  { name: "Extra Long Length", price: "+$20" },
+  { name: "Oval / Round Shape", price: "+$5" },
+  { name: "Almond / Coffin / Ballerina Shape", price: "+$10" },
+  { name: "Stiletto Shape", price: "+$15" },
+  { name: "Callus Treatment", price: "+$10" },
+  { name: "Nail Repair", price: "+$5" },
+  { name: "Paraffin Hands", price: "+$15" },
+  { name: "Paraffin Feet", price: "+$20" },
+  { name: "Extended Massage (10 min)", price: "+$10" },
+];
+
+const soakOff = [
+  { name: "Gel / Dip Removal (with service)", price: "$10" },
+  { name: "Gel / Dip Removal (standalone)", price: "$15" },
+  { name: "Acrylic / Hard Gel / Extensions (with service)", price: "$15" },
+  { name: "Acrylic / Hard Gel / Extensions (standalone)", price: "$25" },
+];
+
+const [manicureMeta, pedicureMeta, enhancementMeta] = categories;
 
 export default function Services() {
+  const manicures = getServicesByCategory("manicures");
+  const pedicures = getServicesByCategory("pedicures");
+  const enhancements = getServicesByCategory("enhancements");
+
   return (
     <section id="services" className="py-28 px-8 lg:px-16 bg-cream">
       <div className="max-w-[1000px] mx-auto">
@@ -122,15 +42,34 @@ export default function Services() {
           <h2 className="font-serif text-4xl sm:text-5xl lg:text-6xl font-light text-charcoal">
             What We Offer
           </h2>
+          <p className="text-warm-gray text-sm max-w-2xl mx-auto mt-6 leading-relaxed">
+            All nail services here are performed by Nevada-licensed professionals. Licensing and education standards are overseen by the{" "}
+            <a
+              href="https://nvcosmetologyboard.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-rose/90 underline underline-offset-4 decoration-rose/40 hover:text-rose"
+            >
+              Nevada State Board of Cosmetology
+            </a>
+            .
+          </p>
         </div>
 
         {/* Manicures */}
         <div className="mb-16">
-          <h3 className="font-serif text-2xl text-charcoal mb-6 text-center">Manicures</h3>
+          <h3 className="font-serif text-2xl text-charcoal mb-6 text-center">
+            <Link
+              href={categoryPagePath(manicureMeta)}
+              className="transition-colors hover:text-rose focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-rose/40 rounded-sm"
+            >
+              Manicures
+            </Link>
+          </h3>
           <div className="border-t border-blush">
-            {services.manicures.map((service, index) => (
+            {manicures.map((service) => (
               <div
-                key={index}
+                key={service.slug}
                 className="grid grid-cols-1 sm:grid-cols-[1fr_auto] gap-2 sm:gap-8 py-6 border-b border-blush items-center transition-all duration-300 md:hover:pl-4 md:hover:bg-gradient-to-r md:hover:from-blush/30 md:hover:to-transparent"
               >
                 <div className="text-center sm:text-left">
@@ -138,22 +77,37 @@ export default function Services() {
                   <p className="text-warm-gray text-sm">{service.description}</p>
                 </div>
                 <div className="text-center sm:text-right whitespace-nowrap">
-                  <span className="text-charcoal text-sm">Regular <span className="font-serif text-xl">{service.regular}</span></span>
+                  <span className="text-charcoal text-sm">Regular <span className="font-serif text-xl">${service.regular}</span></span>
                   <span className="text-warm-gray mx-2">|</span>
-                  <span className="text-charcoal text-sm">Gel <span className="font-serif text-xl">{service.gel}</span></span>
+                  <span className="text-charcoal text-sm">Gel <span className="font-serif text-xl">${service.gel}</span></span>
                 </div>
               </div>
             ))}
           </div>
+          <p className="text-center mt-8">
+            <Link
+              href={categoryPagePath(manicureMeta)}
+              className="text-sm tracking-wide text-rose border-b border-rose/30 pb-0.5 hover:border-rose transition-colors"
+            >
+              View all manicures →
+            </Link>
+          </p>
         </div>
 
         {/* Pedicures */}
         <div className="mb-16">
-          <h3 className="font-serif text-2xl text-charcoal mb-6 text-center">Pedicures</h3>
+          <h3 className="font-serif text-2xl text-charcoal mb-6 text-center">
+            <Link
+              href={categoryPagePath(pedicureMeta)}
+              className="transition-colors hover:text-rose focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-rose/40 rounded-sm"
+            >
+              Pedicures
+            </Link>
+          </h3>
           <div className="border-t border-blush">
-            {services.pedicures.map((service, index) => (
+            {pedicures.map((service) => (
               <div
-                key={index}
+                key={service.slug}
                 className="grid grid-cols-1 sm:grid-cols-[1fr_auto] gap-2 sm:gap-8 py-6 border-b border-blush items-center transition-all duration-300 md:hover:pl-4 md:hover:bg-gradient-to-r md:hover:from-blush/30 md:hover:to-transparent"
               >
                 <div className="text-center sm:text-left">
@@ -161,39 +115,62 @@ export default function Services() {
                   <p className="text-warm-gray text-sm">{service.description}</p>
                 </div>
                 <div className="text-center sm:text-right whitespace-nowrap">
-                  <span className="text-charcoal text-sm">Regular <span className="font-serif text-xl">{service.regular}</span></span>
+                  <span className="text-charcoal text-sm">Regular <span className="font-serif text-xl">${service.regular}</span></span>
                   <span className="text-warm-gray mx-2">|</span>
-                  <span className="text-charcoal text-sm">Gel <span className="font-serif text-xl">{service.gel}</span></span>
+                  <span className="text-charcoal text-sm">Gel <span className="font-serif text-xl">${service.gel}</span></span>
                 </div>
               </div>
             ))}
           </div>
+          <p className="text-center mt-8">
+            <Link
+              href={categoryPagePath(pedicureMeta)}
+              className="text-sm tracking-wide text-rose border-b border-rose/30 pb-0.5 hover:border-rose transition-colors"
+            >
+              View all pedicures →
+            </Link>
+          </p>
         </div>
 
         {/* Nail Enhancements */}
         <div className="mb-16">
-          <h3 className="font-serif text-2xl text-charcoal mb-6 text-center">Nail Enhancements</h3>
+          <h3 className="font-serif text-2xl text-charcoal mb-6 text-center">
+            <Link
+              href={categoryPagePath(enhancementMeta)}
+              className="transition-colors hover:text-rose focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-rose/40 rounded-sm"
+            >
+              Nail Enhancements
+            </Link>
+          </h3>
           <div className="border-t border-blush">
-            {services.enhancements.map((service, index) => (
+            {enhancements.map((service) => (
               <div
-                key={index}
+                key={service.slug}
                 className="grid grid-cols-1 sm:grid-cols-[1fr_auto] gap-2 sm:gap-8 py-4 border-b border-blush items-center transition-all duration-300 md:hover:pl-4 md:hover:bg-gradient-to-r md:hover:from-blush/30 md:hover:to-transparent"
               >
                 <div className="text-center sm:text-left">
                   <h4 className="font-serif text-lg text-charcoal">{service.name}</h4>
                 </div>
                 <div className="text-center sm:text-right whitespace-nowrap">
-                  <span className="font-serif text-xl text-charcoal">{service.price}</span>
-                  {service.gel && (
+                  <span className="font-serif text-xl text-charcoal">${service.price}</span>
+                  {service.gel != null && (
                     <>
                       <span className="text-warm-gray mx-2">|</span>
-                      <span className="text-charcoal text-sm">w/ Gel <span className="font-serif text-xl">{service.gel}</span></span>
+                      <span className="text-charcoal text-sm">w/ Gel <span className="font-serif text-xl">${service.gel}</span></span>
                     </>
                   )}
                 </div>
               </div>
             ))}
           </div>
+          <p className="text-center mt-8">
+            <Link
+              href={categoryPagePath(enhancementMeta)}
+              className="text-sm tracking-wide text-rose border-b border-rose/30 pb-0.5 hover:border-rose transition-colors"
+            >
+              View all nail enhancements →
+            </Link>
+          </p>
         </div>
 
         {/* Length & Shape + Add-Ons in two columns */}
@@ -202,7 +179,7 @@ export default function Services() {
           <div>
             <h3 className="font-serif text-xl text-charcoal mb-6 text-center">Length, Shape & Add-Ons</h3>
             <div className="border-t border-blush">
-              {services.extras.map((service, index) => (
+              {extras.map((service, index) => (
                 <div
                   key={index}
                   className="flex justify-between py-3 border-b border-blush items-center"
@@ -218,7 +195,7 @@ export default function Services() {
           <div>
             <h3 className="font-serif text-xl text-charcoal mb-6 text-center">Removal</h3>
             <div className="border-t border-blush">
-              {services.soakOff.map((service, index) => (
+              {soakOff.map((service, index) => (
                 <div
                   key={index}
                   className="flex justify-between py-3 border-b border-blush items-center"
