@@ -44,7 +44,7 @@ export default function Navbar() {
         className={`lg:hidden fixed top-0 left-0 right-0 z-50 flex justify-between items-center transition-all duration-300 ${
           isScrolled
             ? 'py-4 px-4 bg-cream/95 backdrop-blur-md'
-            : 'py-6 px-4 bg-gradient-to-b from-cream to-transparent'
+            : 'py-6 px-4 bg-cream'
         }`}
       >
         {/* Logo */}
