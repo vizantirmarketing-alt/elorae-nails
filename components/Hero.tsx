@@ -1,6 +1,6 @@
 export default function Hero() {
   return (
-    <section className="min-h-[70vh] lg:min-h-screen flex flex-col items-center lg:justify-center text-center px-8 pt-24 lg:pt-0 pb-16 relative overflow-hidden bg-cream">
+    <section className="min-h-[70vh] lg:min-h-screen flex flex-col items-center lg:justify-center text-center px-8 pt-32 md:pt-36 lg:pt-0 pb-16 relative overflow-hidden bg-cream">
       {/* Background grid */}
       <div className="absolute inset-0 grid grid-cols-3 gap-1 opacity-[0.15] z-0">
         <div className="w-full h-full bg-gradient-to-br from-blush to-[#D4C4BC]" />
@@ -9,7 +9,7 @@ export default function Hero() {
       </div>
 
       {/* Content */}
-      <div className="relative z-10 max-w-3xl">
+      <div className="relative z-0 max-w-3xl">
         <p className="text-[0.75rem] tracking-[0.4em] uppercase text-[#6B6361] mb-8">
           Private Nail Studio · Las Vegas
         </p>
