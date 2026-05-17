@@ -149,68 +149,66 @@ export default function Navbar() {
         </button>
 
         {/* Menu Content */}
-        <div className="flex min-h-0 flex-1 flex-col">
-          <div className="min-h-0 flex-1 overflow-y-auto overscroll-y-contain">
-            <div className="flex flex-col items-center px-4 pb-8 pt-24">
-              {/* Logo in menu */}
-              <a
-                href="/"
-                onClick={handleLinkClick}
-                className="mb-12 shrink-0"
-              >
-                <img 
-                  src="/logos/elorae-logo-primary.svg" 
-                  alt="Eloraé" 
-                  width={160}
-                  height={64}
-                  className="h-16 w-auto"
-                />
-              </a>
-
-              {/* Nav Links */}
-              <ul className="flex flex-col items-center gap-8">
-                {navLinks.map((link, index) => (
-                  <li
-                    key={link.href}
-                    className={`transition-all duration-500 ${
-                      isMenuOpen
-                        ? 'opacity-100 translate-y-0'
-                        : 'opacity-0 translate-y-4'
-                    }`}
-                    style={{ transitionDelay: isMenuOpen ? `${index * 100 + 200}ms` : '0ms' }}
-                  >
-                    <a
-                      href={link.href}
-                      {...(link.external ? { target: '_blank', rel: 'noopener noreferrer' } : {})}
-                      onClick={handleLinkClick}
-                      className="font-serif text-4xl font-light text-charcoal hover:text-rose transition-colors duration-300 sm:text-5xl"
-                    >
-                      {link.label}
-                    </a>
-                  </li>
-                ))}
-              </ul>
-            </div>
-          </div>
-
-          {/* Bottom Info */}
-          <div
-            className={`shrink-0 px-4 pb-10 pt-4 text-center transition-all duration-500 ${
-              isMenuOpen ? 'opacity-100' : 'opacity-0'
-            }`}
-            style={{ transitionDelay: isMenuOpen ? '600ms' : '0ms' }}
-          >
-            <p className="mb-2 text-[0.7rem] uppercase tracking-[0.2em] text-warm-gray">
-              Las Vegas, NV
-            </p>
+        <div className="min-h-0 flex-1 overflow-y-auto overscroll-y-contain">
+          <div className="flex flex-col items-center px-4 pb-10 pt-24">
+            {/* Logo in menu */}
             <a
-              href="https://instagram.com/eloraenails"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-[0.7rem] uppercase tracking-[0.15em] text-rose transition-colors hover:text-charcoal"
+              href="/"
+              onClick={handleLinkClick}
+              className="mb-12 shrink-0"
             >
-              @eloraenails
+              <img 
+                src="/logos/elorae-logo-primary.svg" 
+                alt="Eloraé" 
+                width={160}
+                height={64}
+                className="h-16 w-auto"
+              />
             </a>
+
+            {/* Nav Links */}
+            <ul className="flex flex-col items-center gap-8">
+              {navLinks.map((link, index) => (
+                <li
+                  key={link.href}
+                  className={`transition-all duration-500 ${
+                    isMenuOpen
+                      ? 'opacity-100 translate-y-0'
+                      : 'opacity-0 translate-y-4'
+                  }`}
+                  style={{ transitionDelay: isMenuOpen ? `${index * 100 + 200}ms` : '0ms' }}
+                >
+                  <a
+                    href={link.href}
+                    {...(link.external ? { target: '_blank', rel: 'noopener noreferrer' } : {})}
+                    onClick={handleLinkClick}
+                    className="font-serif text-4xl font-light text-charcoal hover:text-rose transition-colors duration-300 sm:text-5xl"
+                  >
+                    {link.label}
+                  </a>
+                </li>
+              ))}
+            </ul>
+
+            {/* Bottom Info */}
+            <div
+              className={`mt-12 text-center transition-all duration-500 ${
+                isMenuOpen ? 'opacity-100' : 'opacity-0'
+              }`}
+              style={{ transitionDelay: isMenuOpen ? '600ms' : '0ms' }}
+            >
+              <p className="mb-2 text-[0.7rem] uppercase tracking-[0.2em] text-warm-gray">
+                Las Vegas, NV
+              </p>
+              <a
+                href="https://instagram.com/eloraenails"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-[0.7rem] uppercase tracking-[0.15em] text-rose transition-colors hover:text-charcoal"
+              >
+                @eloraenails
+              </a>
+            </div>
           </div>
         </div>
       </div>
