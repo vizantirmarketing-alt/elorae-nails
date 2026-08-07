@@ -24,15 +24,15 @@ export default function Hero() {
       {/* Content */}
       <div className="relative z-10 flex min-h-[100svh] flex-col justify-end px-8 pb-32 pt-40 sm:pb-36 lg:px-16 lg:pb-40 xl:px-24">
         <div className="max-w-[34rem] text-left">
-          <p className="text-[0.65rem] tracking-[0.45em] uppercase text-[#8A827E] mb-6">
+          <p className="text-[0.65rem] tracking-[0.45em] uppercase text-[#4A4340] mb-6">
             Appointment Only · Las Vegas
           </p>
-          <h1 className="font-serif font-light text-[#2C2826] text-5xl sm:text-6xl lg:text-7xl leading-[1.02] tracking-[-0.02em] mb-7">
+          <h1 className="font-serif font-light text-[#1C1917] text-5xl sm:text-6xl lg:text-7xl leading-[1.02] tracking-[-0.02em] mb-7">
             A Private
             <br />
             Nail Studio
           </h1>
-          <p className="font-serif text-base sm:text-lg italic text-[#6B6361] leading-relaxed mb-10 max-w-[38ch]">
+          <p className="font-serif text-base sm:text-lg italic text-[#4A4340] leading-relaxed mb-10 max-w-[38ch]">
             Clean work, clear policies, and an appointment-only studio for clients who want a calm, private experience.
           </p>
           <a
