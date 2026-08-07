@@ -23,11 +23,11 @@ export default function Hero() {
 
       {/* Content */}
       <div className="relative z-10 flex min-h-[100svh] flex-col justify-end px-8 pb-32 pt-40 sm:pb-36 lg:px-16 lg:pb-40 xl:px-24">
-        <div className="max-w-[34rem] text-left">
+        <div className="max-w-[44rem] text-left">
           <p className="text-[0.65rem] tracking-[0.45em] uppercase text-[#4A4340] mb-6">
             Appointment Only · Las Vegas
           </p>
-          <h1 className="font-serif font-light text-[#1C1917] text-5xl sm:text-6xl lg:text-7xl leading-[1.02] tracking-[-0.02em] mb-7">
+          <h1 className="font-serif font-light text-[#1C1917] text-6xl sm:text-7xl lg:text-8xl xl:text-[7.5rem] leading-[0.96] tracking-[-0.025em] mb-8">
             A Private
             <br />
             Nail Studio

@@ -74,7 +74,7 @@ export default function Navbar() {
 
       {/* Desktop Navbar - Horizontal Top Bar (Default State) */}
       {!isScrolled && (
-        <nav className="hidden lg:flex fixed top-0 left-0 right-0 z-50 justify-between items-center py-6 px-16 bg-gradient-to-b from-cream to-transparent transition-all duration-300">
+        <nav className="hidden lg:flex fixed top-0 left-0 right-0 z-50 justify-between items-center py-6 px-16 transition-all duration-300">
           {/* Logo */}
           <a href="/" className="relative z-10">
             <img 
@@ -93,7 +93,7 @@ export default function Navbar() {
                 <a
                   href={link.href}
                   {...(link.external ? { target: '_blank', rel: 'noopener noreferrer' } : {})}
-                  className="text-[0.75rem] tracking-[0.15em] uppercase text-warm-gray hover:text-rose transition-colors duration-300 relative after:content-[''] after:absolute after:bottom-[-4px] after:left-0 after:w-0 after:h-px after:bg-rose after:transition-all after:duration-300 hover:after:w-full"
+                  className="text-[0.75rem] font-medium tracking-[0.15em] uppercase text-[#241A17] hover:text-[#A85C5C] hover:drop-shadow-[0_0_10px_rgba(255,248,244,0.95)] transition-colors duration-300 relative after:content-[''] after:absolute after:bottom-[-4px] after:left-0 after:w-0 after:h-[1.5px] after:bg-[#A85C5C] after:transition-all after:duration-300 hover:after:w-full"
                 >
                   {link.label}
                 </a>
@@ -129,7 +129,7 @@ export default function Navbar() {
                   key={link.href}
                   href={link.href}
                   {...(link.external ? { target: '_blank', rel: 'noopener noreferrer' } : {})}
-                  className="text-[0.65rem] tracking-[0.2em] uppercase text-warm-gray hover:text-rose transition-all duration-500 [writing-mode:vertical-rl] rotate-180 hover:drop-shadow-[0_0_8px_rgba(184,155,148,0.8)]"
+                  className="text-[0.65rem] font-medium tracking-[0.2em] uppercase text-[#4A4340] hover:text-[#A85C5C] transition-all duration-500 [writing-mode:vertical-rl] rotate-180 hover:drop-shadow-[0_0_10px_rgba(255,248,244,0.95)]"
                 >
                   {link.label}
                 </a>
