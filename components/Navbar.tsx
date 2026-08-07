@@ -5,11 +5,14 @@ import { useState, useEffect } from 'react';
 export default function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [isPastHero, setIsPastHero] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
       setIsScrolled(window.scrollY > 100);
+      setIsPastHero(window.scrollY > window.innerHeight - 80);
     };
+    handleScroll();
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
@@ -103,7 +106,13 @@ export default function Navbar() {
       {/* Desktop Navbar - Collapsed Left Sidebar (After Scrolling) */}
       {isScrolled && (
         <nav className="hidden lg:flex fixed left-0 top-0 h-full z-50">
-          <div className="w-12 bg-cream/95 backdrop-blur-sm border-r border-mauve/20 flex flex-col items-center py-8">
+          <div
+            className={`w-12 flex flex-col items-center py-8 transition-colors duration-500 ${
+              isPastHero
+                ? 'bg-cream/95 backdrop-blur-sm border-r border-mauve/20'
+                : 'bg-transparent border-r-0'
+            }`}
+          >
             {/* Logo Icon */}
             <a href="/" className="mb-12">
               <img 
